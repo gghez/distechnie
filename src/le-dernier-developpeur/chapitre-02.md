@@ -5,7 +5,7 @@
 
 L'été fut celui des murmures.
 
-Dans les couloirs de Nério, dans les cafés de La Défense, dans les groupes Slack privés et les boucles WhatsApp, une même conversation tournait en boucle, à voix basse, comme une prière honteuse.
+Dans les couloirs de Nério, dans les cafés de La Défense, dans les groupes *Slack*\* privés et les boucles WhatsApp, une même conversation tournait en boucle, à voix basse, comme une prière honteuse.
 
 *C'est temporaire. Ça va se tasser. On ne peut pas remplacer tout le monde.*
 
@@ -23,29 +23,27 @@ Ce mail avait été écrit par un agent. Le CEO avait demandé à une IA de réd
 
 Simon faillit rire. Puis la nausée l'emporta sur le rire.
 
-Simon avait montré le mail à Rémy, le développeur back-end qui occupait le poste à côté du sien. Rémy était un type solide, quinze ans de métier, le genre de mec qui avait tout bien fait.
+Simon avait montré le mail à Rémy. Celui-ci l'avait lu deux fois, mâchoire serrée.
 
-— "Ajustements organisationnels", avait lu Rémy à voix haute. Il avait secoué la tête. Tu crois que ça nous concerne, nous les devs ?
+— "Ajustements organisationnels", avait-il répété à voix basse. Puis, après un silence : Les juniors d'abord. Ensuite les chefs de projet. Nous, les seniors, on tient encore un moment.
 
-— Tout le monde sera concerné, avait dit Simon.
+Il avait dit ça comme on récite une prière — pas parce qu'on y croit, mais parce qu'on a besoin de l'entendre. Simon reconnut le ton. C'était le même que celui de Rémy au *daily standup*\*, quelques mois plus tôt, quand il avait annoncé que l'agent avait fait sa migration en une nuit. Le même vertige, à peine maquillé en assurance.
 
-— Non mais nous, les devs seniors. On est le cœur du réacteur. Sans nous, il n'y a pas de produit.
+— Tu crois vraiment ça ? demanda Simon.
 
-Simon n'avait pas répondu. Il n'avait pas envie d'expliquer à Rémy que le cœur du réacteur, désormais, c'était une API et un modèle de langage.
+Rémy ne répondit pas tout de suite. Il regardait son écran, où un agent était en train de *refactorer*\* un module qu'il avait mis trois semaines à écrire l'année précédente.
+
+— Non, finit-il par dire. Mais j'ai un crédit et deux gamins. Alors je vais faire comme si.
 
 ---
 
 À l'extérieur de Nério, le monde commençait à tanguer.
 
-Sur YouTube, les premiers à flairer le sang étaient les mêmes que d'habitude : les prophètes de malheur, les cyniques à micro-cravate et néons RGB, ceux qui avaient déjà prédit l'effondrement du dollar, la fin de l'Europe et l'apocalypse quantique. Sauf que cette fois, ils avaient raison. Leurs vidéos tournaient en boucle dans les open spaces, partagées en douce sur Slack avec un émoji ricanant. *"Votre job n'existera plus dans 18 mois"*, *"L'IA vous a déjà remplacé, vous ne le savez pas encore"*. Titres racoleurs, montages agressifs, le ton goguenard de ceux qui jubilent d'avoir vu juste. Simon en regardait quelques-unes, le soir, avec un mélange de dégoût et de reconnaissance. Ils disaient ce que personne n'osait dire au bureau. Mal, avec trop de drama et pas assez de nuance — mais ils le disaient.
+Sur YouTube, les prophètes de malheur flairèrent le sang les premiers — les cyniques à micro-cravate et néons RGB, ceux qui avaient déjà prédit l'effondrement du dollar et l'apocalypse quantique. Sauf que cette fois, ils avaient raison. *"Votre job n'existera plus dans 18 mois"*, *"L'IA vous a déjà remplacé, vous ne le savez pas encore"*. Simon en regardait quelques-unes le soir, avec un mélange de dégoût et de reconnaissance. Ils disaient ce que personne n'osait dire au bureau. Mal — mais ils le disaient.
 
-Puis les chiffres officiels du chômage tombèrent en septembre, et les chaînes sérieuses n'eurent plus le choix. Les postes dans le tertiaire fondaient. Pas un secteur à la fois, pas une catégorie précise — partout en même temps, comme une marée qui se retire. Comptabilité, marketing, juridique, support, gestion de projet, analyse de données. Les agents grignotaient tout, méthodiquement, sans bruit.
+Puis les chiffres officiels du chômage tombèrent en septembre, et les chaînes sérieuses n'eurent plus le choix. Les postes dans le tertiaire fondaient partout en même temps, comme une marée qui se retire. Les mêmes YouTubers que tout le monde moquait deux mois plus tôt se retrouvèrent sur les plateaux. Ils avaient troqué les néons RGB pour des blazers, mais le sourire était le même.
 
-Les chaînes d'info en continu découvrirent le sujet avec leur subtilité habituelle. Plateaux anxiogènes, experts en cravate, courbes rouges plein écran. *"La France face au choc IA"*, titraient les bandeaux. Les mêmes YouTubers que tout le monde moquait deux mois plus tôt étaient désormais invités sur les plateaux. Ils avaient troqué les néons RGB pour des blazers, mais le sourire était le même — celui de Cassandre à qui on donne enfin le micro.
-
-Simon regardait ces débats le soir, dans son appartement de Montreuil, avec un sentiment étrange. C'était comme voir un film dont il avait lu le scénario. Les experts s'écharpaient sur des questions qu'il avait résolues dans sa tête depuis des mois. Fallait-il réguler ? Taxer les agents ? Ralentir le déploiement ?
-
-Trop tard, pensait Simon. C'était comme demander si on devait réguler la gravité.
+Trop tard, pensait Simon en regardant les experts s'écharper. Réguler l'IA, c'était comme demander si on devait réguler la gravité.
 
 Un soir de septembre, il dîna avec Joachim et Emeric dans un restaurant thaï du dixième. Le restaurant était à moitié vide — pas inhabituel pour un mardi, mais Simon nota machinalement les tables désertes.
 
@@ -59,14 +57,32 @@ Joachim était radieux. Il venait de publier un article dans *Nature* sur un mé
 
 — Moi je dis, le mot de l'année c'est "agilité", contra Emeric avec un sourire. Ça veut dire la même chose, mais c'est plus joli.
 
-Joachim les regardait avec l'air perplexe de quelqu'un qui observe une espèce inconnue. Il n'était pas insensible — il aimait ses amis, s'inquiétait vaguement pour eux. Mais la crise du travail, pour lui, restait un concept abstrait, un problème de société qu'il rangeait dans la même catégorie que le réchauffement climatique ou la dette publique : réel, préoccupant, mais lointain.
+Joachim les regardait avec l'air perplexe de quelqu'un qui observe une espèce inconnue.
 
-Simon, lui, sentait la mâchoire se serrer. Ce décalage le rendait fou. Joachim vivait dans un monde où l'IA était une bénédiction. Emeric vivait dans un monde où elle n'était qu'un problème de plus dans une longue liste. Et Simon, coincé entre les deux, avait l'impression d'être le seul à voir le mur se rapprocher.
+Simon sentait la mâchoire se serrer.
 
-Il faillit dire quelque chose. Quelque chose de dur, de définitif, du genre : *dans cinq ans, il n'y aura plus de chefs de projet, plus de développeurs, plus de comptables, et vos protéines, Jojo, elles seront modélisées par des machines qui n'auront besoin de personne pour les faire tourner.*
+Puis Joachim posa ses baguettes.
 
-Mais il se tut. À quoi bon ? Cassandre avait le don de prophétie et la malédiction de n'être jamais crue. Simon avait un don similaire, en moins mythologique et plus déprimant.
+— Mon doctorant m'a dit un truc bizarre, la semaine dernière. Il m'a dit : "Pourquoi je ferais trois ans de thèse si un agent peut synthétiser la littérature en une nuit ?" Je lui ai répondu que la science, c'était pas de la synthèse. Que c'était de l'intuition, de la méthode, du doute.
 
-Il commanda un deuxième pad thaï et changea de sujet.
+Il se tut un instant. Reprit ses baguettes. Les reposa.
+
+— Mais il m'a regardé comme si je lui parlais de la machine à vapeur.
+
+Emeric et Simon échangèrent un regard. C'était la première fois que Joachim entendait l'écho de ce qu'ils disaient depuis des mois — et il venait de son propre labo.
+
+Le silence dura quelques secondes. Puis Emeric leva sa bière.
+
+— Bienvenue dans notre monde, Jojo.
+
+Personne ne rit.
+
+Simon commanda un deuxième pad thaï. En rentrant à Montreuil, il ouvrit son ordinateur par réflexe. Trois notifications. Un agent avait résolu les deux tickets qu'il s'était attribués pour le lendemain. Son mercredi venait de se vider.
+
+Il referma l'écran et resta dans le noir.
 
 ---
+
+\* **Slack** : messagerie professionnelle en ligne, très utilisée dans les entreprises technologiques.
+\* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+\* **Refactorer** *(refactoring)* : réécrire du code existant pour l'améliorer sans changer ce qu'il fait.

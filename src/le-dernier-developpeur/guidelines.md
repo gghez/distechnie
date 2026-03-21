@@ -43,7 +43,7 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 - A beaucoup à perdre — ce qui rend sa chute d'autant plus vertigineuse
 
 ### Joachim
-- Ami de longue date de Simon (anciens collègues / amis de prépa)
+- Ami de longue date de Simon (amis de prépa)
 - Chercheur en biophysique
 - Obnubilé par les sciences, se désintéresse peu à peu des problématiques liées à l'IA
 - Ne semble pas psychologiquement affecté par ces changements, ce qui déstabilise Simon
@@ -149,6 +149,9 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 - **Personne n'est vraiment le méchant :** le système s'effondre sous sa propre logique, tout le monde est à la fois coupable et victime
 - **Le savoir-faire vs le savoir faire faire**
 - **L'hypnose de l'agent :** l'effet grisant de regarder un agent travailler à sa place — on pourrait en lancer un autre en parallèle, être plus productif, mais c'est hypnotisant de le regarder faire, comme un feu de cheminée numérique. La fascination passive qui remplace l'action.
+- **Le volume brut de l'IA :** le code produit par un agent est systématiquement plus volumineux que le code humain équivalent — plus de tests, plus de vérifications, plus de cas limites couverts. Pas élégant, mais exhaustif. Ce volume a deux conséquences narratives :
+  1. **La relecture devient un goulot d'étranglement** — relire une contribution d'agent prend plus de temps qu'une contribution humaine, car il y a tout simplement plus de code à parcourir.
+  2. **L'auto-validation devient inévitable** — au rythme où les changements arrivent, il devient physiquement impossible de tout relire. On finit par valider sans lire, par faire confiance à la machine. C'est le moment où l'humain perd le contrôle du code qu'il est censé superviser.
 
 ---
 
@@ -160,3 +163,25 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 - Pas de grand discours — montrer plutôt que dire
 - L'ironie comme moteur narratif (Simon code sa propre obsolescence, Emeric finit boulanger, Monsieur Brie gagne la bataille de l'efficacité et perd la guerre du sens)
 - Deux trajectoires parallèles (Simon / Monsieur Brie) qui convergent vers le même effondrement
+
+---
+
+## Notes de bas de page (termes techniques)
+
+Lorsqu'un terme technique du champ lexical du développement logiciel est utilisé dans le texte (ex : *refactoring*, *sprint*, *daily standup*, *code review*, *bug*, *commit*, *pipeline*…), il doit être accompagné d'un appel de note sous forme d'astérisque et d'une explication en bas de page.
+
+**Format :**
+
+```markdown
+Simon poussa le code en *review*\*.
+
+---
+
+\* **Review** : relecture du code par un pair avant intégration.
+```
+
+**Règles :**
+- Un terme n'est annoté qu'à sa **première occurrence** dans le chapitre
+- La note doit être **courte et accessible** — on écrit pour un lecteur non-technique
+- Les notes sont regroupées en bas du chapitre, après un séparateur `---`
+- Ne pas annoter les termes déjà courants dans le langage commun (ex : *bug* est compris de tous, pas besoin de note)

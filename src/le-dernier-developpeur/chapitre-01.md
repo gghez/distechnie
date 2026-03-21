@@ -3,7 +3,7 @@
 
 *Acte I — Les signaux*
 
-— Eh Nico, t'as vu ? L'agent a refacto tout le module de paiement pendant ta pause clope.
+— Eh Nico, t'as vu ? L'agent a *refacto*\* tout le module de paiement pendant ta pause clope.
 
 — Nique sa mère. Il a touché à mes tests aussi ?
 
@@ -15,7 +15,7 @@ L'open space de Nério avait cette énergie qu'on ne trouve que dans les boîtes
 
 Simon Darcy aimait cet endroit. C'est ce qui rendait la chose pire.
 
-Sur son terminal, un agent venait de résoudre en onze secondes un bug qui lui aurait pris la matinée. Il le regardait faire, fasciné malgré lui — les lignes de code qui apparaissaient, précises, élégantes, comme si la machine avait compris non seulement le problème mais l'intention derrière. On aurait pu lancer autre chose en parallèle, être productif. Mais c'était hypnotisant. Un feu de cheminée numérique.
+Sur son terminal, un agent venait de résoudre en onze secondes un bug qui lui aurait pris la matinée. Il le regardait faire, fasciné malgré lui — les lignes de code qui défilaient — bien plus que ce qu'un humain aurait écrit pour le même bug. Des tests partout, des vérifications pour chaque cas limite, un filet de sécurité qu'aucun développeur n'aurait eu la patience de tisser. Pas élégant. Exhaustif.
 
 Onze secondes.
 
@@ -25,7 +25,7 @@ Il avait trente-quatre ans, un CDI confortable, des collègues qu'il aimait, et 
 
 Ce n'était pas de la paranoïa. C'était de l'arithmétique.
 
-Il l'avait dit à Romain, son lead. Pas de manière solennelle, pas en convoquant une réunion — juste entre deux cafés, un mardi matin, en regardant les résultats du dernier sprint.
+Il l'avait dit à Romain, son lead. Pas de manière solennelle, pas en convoquant une réunion — juste entre deux cafés, un mardi matin, en regardant les résultats du dernier *sprint*\*.
 
 — T'as vu le temps de résolution depuis qu'on utilise les agents ? avait demandé Simon.
 
@@ -59,29 +59,81 @@ Il en avait parlé à Joachim un soir, au téléphone. Joachim, son ami de prép
 
 Simon avait raccroché avec ce mélange familier d'affection et d'exaspération. Joachim vivait dans un monde parallèle, un monde de formules et de microscopes où les agents IA n'étaient que des outils de plus, comme une pipette perfectionnée. C'était peut-être de la sagesse. Ou peut-être l'aveuglement confortable de celui qui ne regarde pas par la fenêtre.
 
-Emeric, lui, avait écouté. C'était un vendredi, dans un bar du onzième, un de ces endroits bruyants où il faut crier pour se faire entendre. Emeric était entre deux missions, comme d'habitude. Ex-développeur reconverti chef de projet, il enchaînait les CDD et les périodes creuses depuis trois ans. Avant les agents. Avant la crise. Emeric galérait par nature, ou par malchance — Simon n'avait jamais su trancher.
+Ce soir-là, Simon ne dormit pas.
 
-— Ouais, avait dit Emeric en sirotant sa bière. C'est possible. Probable même.
+Ce n'était pas l'insomnie habituelle — le loyer, les mails, une ex. C'était une insomnie existentielle. Son cerveau tournait comme un moteur emballé, incapable de caler.
+
+Il reprit le carnet. La tasse de thé sur la table basse avait refroidi depuis longtemps. Nério employait trente-deux développeurs. Les chiffres tombaient comme un compte à rebours. Trente-deux deviendrait vingt. Vingt deviendrait douze. Douze deviendrait cinq. Et cinq deviendrait : pourquoi encore payer des gens ?
+
+Il ferma le carnet. Le rouvrit. Recalcula. Ça ne changeait pas.
+
+Ce qui le rongeait, ce n'était pas la conclusion — c'était la solitude de la conclusion. Joachim n'avait pas compris. Romain n'avait pas voulu comprendre. Et Simon n'avait personne à qui dire : la vague arrive, et tout le monde bronze sur la plage.
+
+À trois heures du matin, il se leva et alla à la fenêtre. Montreuil dormait. Quelques lampadaires orange, un scooter au loin, le silence des villes qui ne savent pas encore.
+
+---
+
+Le lendemain au bureau, tout était normal. C'est-à-dire que tout avait l'air normal.
+
+Nico se plaignait de la climatisation. Léa montrait une vidéo de chat sur son téléphone. Romain distribuait les tickets du sprint avec l'assurance tranquille de celui qui croit que les sprints existeront toujours.
+
+Simon prit son café, ouvrit son terminal, lança un agent sur un module de facturation. L'agent livra en sept minutes un pavé de code — trois fois ce que Simon aurait écrit pour le même résultat. Des tests pour des cas auxquels il n'aurait pas pensé, des validations partout, de la documentation intégrée. Plus lourd que du code humain, mais plus solide aussi. Simon avait regardé les lignes défiler pendant sept minutes, incapable de décrocher. On aurait pu lancer autre chose en parallèle, être productif. Mais c'était hypnotisant. Un feu de cheminée numérique.
+
+Il poussa le code en *revue*\*. Personne ne remarqua qu'il n'avait pas écrit une seule ligne.
+
+Le midi, ils déjeunèrent à six dans le japonais d'en bas. Nico raconta un match de foot, Romain parla de ses vacances en Crète, et Léa fit rire tout le monde avec une imitation du directeur commercial. C'était bien. C'était simple. Simon rit avec eux, sincèrement, et pendant une heure il oublia les courbes.
+
+L'après-midi, un mail RH annonça le départ de Julien, un développeur junior de l'équipe data. *Julien a décidé de poursuivre de nouvelles opportunités.* La formule consacrée. Simon savait ce qu'elle signifiait : Julien n'avait rien décidé du tout.
+
+---
+
+Le mercredi, en *daily standup*\*, Rémy prit la parole avec son calme habituel. Freelance *back-end*\*, quarante-trois ans, posté à côté de Simon depuis deux ans — le genre de type solide qu'on imagine mal déstabilisé.
+
+— J'ai lancé un agent sur la migration de la base clients hier soir. Ce matin, c'était fini. J'ai relu, c'est nickel.
+
+— T'as fait ça en une soirée ? demanda Romain, impressionné.
+
+— L'agent a fait ça en une soirée. Moi, j'ai regardé une série.
+
+Quelques rires. Simon croisa le regard de Rémy. Il y lut quelque chose qui n'avait pas encore de nom — le vertige de celui qui vient de rendre son propre savoir-faire négligeable. Quinze ans de métier, un crédit à Cergy, deux gamins. Et une machine qui faisait le boulot pendant qu'il regardait Netflix.
+
+Rémy ne dit rien de plus. Simon nota qu'il ne sourit plus de la journée.
+
+---
+
+Le jeudi soir, Simon rentra chez lui et resta debout devant sa fenêtre, sans allumer la lumière. Il pensa à Joachim et à sa machine à vapeur. Il pensa à Julien et à ses *nouvelles opportunités*. Il pensa à Rémy qui ne souriait plus.
+
+Il envoya un message à Emeric : *On se boit une bière demain ?*
+
+La réponse fut immédiate : *Toujours.*
+
+---
+
+Le lendemain soir, dans un bar du onzième — un de ces endroits bruyants où il faut crier pour se faire entendre — Simon vida son sac. Les agents, les chiffres, le carnet, Julien, Rémy. Tout.
+
+Emeric écouta. Il était entre deux missions, comme d'habitude. Ex-développeur reconverti chef de projet, il enchaînait les CDD et les périodes creuses depuis trois ans. Avant les agents. Avant la crise. Emeric galérait par nature, ou par malchance — Simon n'avait jamais su trancher.
+
+— Ouais, dit Emeric en sirotant sa bière. C'est possible. Probable même.
 
 — Et ça te fait rien ?
 
-Emeric avait haussé les épaules. Pas le haussement de celui qui s'en fiche — celui de celui qui a déjà encaissé.
+Emeric haussa les épaules. Pas le haussement de celui qui s'en fiche — celui de celui qui a déjà encaissé.
 
 — Mec, moi ça fait trois ans que je cherche. Si le marché se casse la gueule, au moins je serai pas surpris. Bienvenue dans mon monde.
 
-Il avait dit ça sans amertume. Emeric ne faisait pas dans l'amertume. C'était un type qui tombait et se relevait, tombait et se relevait, avec une régularité qui forçait le respect ou l'inquiétude, selon les jours.
+C'était dit sans amertume. Emeric ne faisait pas dans l'amertume.
 
 ---
 
 Au bureau, les choses avançaient à une vitesse que Simon trouvait obscène.
 
-En mars, Nério avait licencié les deux testeurs QA. Les agents couvraient quatre-vingt-quinze pour cent des cas de test. Les cinq pour cent restants ? On verrait en prod.
+En mars, Nério avait licencié les deux testeurs *QA*\*. Les agents couvraient quatre-vingt-quinze pour cent des cas de test. Les cinq pour cent restants ? On verrait en *prod*\*. Le lundi suivant, leurs bureaux étaient vides. Écrans éteints, chaises repoussées. Un mug *World's Okayest Tester* encore sur le plan de travail.
 
 En avril, c'était le tour de Fatima, la rédactrice technique. Son poste avait été "réorganisé" — le mot que les RH utilisaient pour ne pas dire "supprimé". La documentation serait désormais générée automatiquement.
 
 En mai, l'équipe de support client avait fondu de moitié. Un agent conversationnel gérait le premier et le deuxième niveau. Les humains restants ne traitaient plus que les cas "complexes" — c'est-à-dire les clients assez furieux pour exiger un être humain.
 
-Simon observait tout cela avec le détachement horrifié du témoin qui a vu l'accident avant qu'il ne se produise. Il continuait à coder, à livrer, à faire ses daily standups.
+Il continuait à coder, à livrer, à faire ses daily standups.
 
 Un soir, Léa le coinça à la sortie. Elle avait son casque autour du cou et son sac à dos déjà sur l'épaule, mais elle ne partait pas. Elle attendait que le couloir se vide.
 
@@ -93,11 +145,11 @@ Un soir, Léa le coinça à la sortie. Elle avait son casque autour du cou et so
 
 — Oui, et ?
 
-— Et un agent pourrait répondre à chaque question de l'utilisateur. Directement. En langage naturel. "Montre-moi les ventes de mars par région", et il te sort exactement ce que tu veux. Pas un écran figé avec des filtres prédéfinis. Pas un format décidé six mois à l'avance en atelier. Juste… la réponse. Celle que toi, toi précisément, tu voulais, au moment où tu la voulais.
+— Et un agent pourrait juste… répondre. Directement. "Montre-moi les ventes de mars par région", et il te sort exactement ce que tu veux. Pas un écran figé. Pas un format décidé six mois à l'avance. Juste la réponse.
 
-Simon ne dit rien. Il savait où elle allait.
+Elle se mordit la lèvre.
 
-— Alors à quoi ça sert ? poursuivit Léa. À quoi ça sert de designer des interfaces, de coder des écrans, de versionner, de livrer, de corriger des bugs sur un bouton que personne utilise de la bonne manière ? Pourquoi on empaquette la donnée dans des boîtes rigides alors qu'un agent peut la transformer à la volée, dans la forme exacte que chaque utilisateur veut ?
+— Alors à quoi ça sert, ce qu'on fait ? Pourquoi on empaquette la donnée dans des boîtes rigides alors qu'un agent peut la donner à chacun dans la forme exacte qu'il veut ?
 
 Elle le regardait avec des yeux qui cherchaient une contradiction. Un argument. N'importe quoi pour la rassurer.
 
@@ -105,7 +157,7 @@ Elle le regardait avec des yeux qui cherchaient une contradiction. Un argument. 
 
 — Dis-moi que j'ai tort.
 
-— T'as pas tort, Léa. Le logiciel, tel qu'on le connaît — des écrans, des boutons, des parcours utilisateur — c'est un compromis. Un compromis entre ce que l'utilisateur veut et ce qu'on est capables de livrer. Le jour où l'agent peut donner à chacun exactement ce qu'il veut, le compromis n'a plus de raison d'être.
+— Le logiciel, c'est un compromis. Entre ce que l'utilisateur veut et ce qu'on peut livrer. Le jour où l'agent donne à chacun exactement ce qu'il veut, le compromis saute.
 
 Léa hocha la tête lentement. Pas soulagée. Pas surprise non plus. Juste quelqu'un qui entend confirmer ce qu'elle savait déjà.
 
@@ -120,3 +172,13 @@ Elle remit son casque sur ses oreilles et partit vers le métro sans se retourne
 Mais chaque matin, Simon s'asseyait à son poste, regardait les bureaux qui se vidaient autour de lui, et se demandait combien de temps il faudrait avant que le sien le devienne aussi.
 
 La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
+
+---
+
+\* **Refacto** *(refactoring)* : réécriture d'un morceau de code pour l'améliorer sans changer ce qu'il fait.
+\* **Sprint** : période de travail fixe (généralement deux semaines) dans les méthodes de gestion de projet agiles.
+\* **Revue** *(de code)* : relecture du code par un pair avant de l'intégrer au logiciel.
+\* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+\* **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
+\* **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
+\* **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
