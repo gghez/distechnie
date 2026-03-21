@@ -31,6 +31,24 @@
   margin-bottom: 0.3rem;
 }
 
+/* Guidelines link */
+.guidelines-link {
+  margin: 0.5rem 0;
+}
+
+.guidelines-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.guidelines-link a:hover {
+  opacity: 1;
+}
+
 /* Story status banner */
 .story-status {
   padding: 0.6rem 1rem;

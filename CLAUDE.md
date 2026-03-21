@@ -61,8 +61,21 @@ status: wip  # optional — "wip" shows a banner, omit when the story is complet
 The body should contain:
 1. `{{</* story-status */>}}` shortcode (WIP banner, only renders if `status: wip`)
 2. `{{</* epub-link story="<story-slug>" */>}}` shortcode (EPUB download)
-3. Genre and synopsis
-4. `{{</* story-toc */>}}` shortcode (chapter listing)
+3. `{{</* guidelines-link */>}}` shortcode (link to guidelines page, renders only if `guidelines.md` exists)
+4. Genre and synopsis
+5. `{{</* story-toc */>}}` shortcode (chapter listing)
+
+### Guidelines Page
+
+Each story can have a `guidelines.md` file containing the creative guidelines (concept, characters, plot structure, writing principles). This page uses `bookHidden: true` so it does not appear in the sidebar navigation, but is accessible via the link on the story's index page.
+
+```yaml
+---
+title: "Guidelines"
+weight: 99
+bookHidden: true
+---
+```
 
 ### Chapter Format
 
