@@ -1,5 +1,5 @@
-
 # Chapitre 7 — Les flammes
+
 
 *Acte III — La chute*
 
@@ -35,3 +35,28 @@ Un soir, dans le métro, il entendit deux femmes parler derrière lui.
 
 Simon enfonça ses écouteurs et monta le volume. Ses mains tremblaient.
 
+---
+
+Il appela Emeric ce soir-là.
+
+— Tu dis quoi, toi, quand on te demande ce que tu faisais avant ?
+
+— Chef de projet.
+
+— Et ça passe ?
+
+— Les gens savent pas ce que c'est, un chef de projet. Ils imaginent un type avec un casque sur un chantier. Ça m'arrange.
+
+— Moi je peux pas. Développeur, tout le monde sait ce que c'est maintenant. C'est le mec qui a foutu le monde en l'air.
+
+Un silence.
+
+— Simon. T'as pas foutu le monde en l'air.
+
+— J'ai codé des outils qui ont rendu des gens obsolètes. C'est pas la même chose, mais c'est pas si différent.
+
+— C'est complètement différent, et tu le sais. T'as fait ton boulot. Comme le mec qui a inventé la voiture a fait son boulot. C'est pas lui qui a décidé de fermer les écuries.
+
+Simon ne répondit pas. Emeric avait raison, rationnellement. Mais la rationalité ne pesait pas lourd contre la honte.
+
+Il ne parlait plus de son passé. À personne.

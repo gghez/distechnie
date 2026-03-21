@@ -1,5 +1,5 @@
-
 # Chapitre 4 — Les saboteurs
+
 
 *Acte II — Le grand mensonge*
 
@@ -29,3 +29,36 @@ Même avec des erreurs, même avec des bugs, même avec du sabotage, l'équation
 
 Les agents coûtaient moins cher.
 
+---
+
+Un soir de juillet, Simon tomba sur un article qui le glaça.
+
+Un ingénieur de Bangalore avait été arrêté pour avoir introduit du code malveillant dans le système d'agents de sa boîte. Le code ne faisait rien de spectaculaire — il ralentissait les temps de réponse de quelques millisecondes, juste assez pour que les performances semblent médiocres. L'ingénieur avait tenu six mois avant d'être repéré.
+
+Les commentaires sous l'article oscillaient entre la compassion et le mépris. *"Il a fait ce qu'il fallait."* *"C'est pathétique."* *"On en est tous là."*
+
+Simon ferma l'article et resta longtemps assis dans le noir de son appartement.
+
+Le lendemain, il prit un café avec Karim. Pas au bureau — en bas, dans le PMU du coin, un endroit improbable pour deux développeurs en chemise, mais un endroit où personne ne les écouterait.
+
+— Tu sais ce qu'ils font, dit Simon. Les sabotages.
+
+Karim ne répondit pas tout de suite. Il touilla son café, regarda par la fenêtre.
+
+— Je sais.
+
+— Tu participes ?
+
+— Non. Karim marqua une pause. Mais je comprends.
+
+— Ça ne marchera pas.
+
+— Je sais ça aussi.
+
+Ils burent leur café en silence. Dehors, un livreur Uber Eats passa à vélo, zigzaguant entre les voitures. Même lui, pensa Simon. Même les livreurs. Les véhicules autonomes arrivaient.
+
+— Tu sais ce qui me rend dingue ? dit Karim soudain. C'est pas de perdre mon job. C'est de perdre ce que je suis. Je suis développeur, Simon. Depuis quinze ans. C'est ce que je *suis*. Et là on me dit que ce que je suis, ça vaut moins qu'un abonnement mensuel à une API.
+
+Simon n'eut rien à répondre à ça.
+
+Parce que c'était exactement ce qu'il ressentait.

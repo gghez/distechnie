@@ -1,5 +1,5 @@
-
 # Chapitre 8 — Seul au sommet
+
 
 *Acte III — La chute*
 
@@ -30,6 +30,27 @@ Puis ce fut Drivex, la chaîne de fast-food. Puis NordBanque, la néobanque qui 
 Monsieur Brie, seul dans son loft, regardait ses tableaux de bord passer du vert à l'orange, puis de l'orange au rouge. Il avait optimisé les coûts jusqu'à l'os — un seul salaire, le sien, et des abonnements aux agents. Mais même un os, sans chair autour, finit par se briser.
 
 Il avait gagné la bataille de l'efficacité et perdu la guerre du sens.
+
+---
+
+Un matin de mars, Monsieur Brie arriva au loft et ne s'assit pas devant ses écrans. Il resta debout au milieu de l'espace vide, les bras le long du corps, et regarda autour de lui.
+
+Cent cinquante personnes avaient travaillé ici. Cent cinquante vies, cent cinquante salaires, cent cinquante familles. Des gens qui prenaient le métro le matin, qui achetaient des sandwichs à midi, qui buvaient des bières le vendredi soir, qui payaient des loyers, des impôts, des abonnements Netflix.
+
+Cent cinquante consommateurs.
+
+Multipliés par toutes les entreprises qui avaient fait la même chose que lui.
+
+L'image le frappa avec une violence physique. Il dut s'asseoir.
+
+Il avait été un rouage. Un rouage parmi des milliers, chacun convaincu de faire le bon choix, chacun optimisant son petit périmètre, et l'ensemble produisant une catastrophe que personne n'avait voulue mais que tout le monde avait construite.
+
+Monsieur Brie, pour la première fois depuis très longtemps, eut envie de parler à quelqu'un. Pas à un agent. À un être humain.
+
+Mais il n'y avait personne.
+
+---
+
 La troisième année fut celle du rationnement.
 
 Le mot fit son apparition au printemps, d'abord dans la presse, puis dans les discours officiels, puis dans la vie quotidienne. Les caisses de l'État, gorgées pendant des décennies par les cotisations des salariés, se vidaient à une vitesse que personne n'avait anticipée. Moins de salariés, moins de cotisations. Moins de consommation, moins de TVA. Moins de TVA, moins de budget.
@@ -52,3 +73,4 @@ Joachim, lui, continuait ses recherches. Son labo fonctionnait encore — la rec
 
 Simon mâcha sa ratatouille en silence. Il aurait voulu être en colère contre Joachim, contre son détachement serein, contre son monde préservé. Mais il n'y arrivait pas. Joachim n'était pas indifférent. Il était simplement ailleurs. Et peut-être que cet ailleurs contenait une vérité que Simon n'était pas encore prêt à entendre.
 
+---
