@@ -1,69 +1,77 @@
 /* EPUB styles for Distechnie stories — injected by pandoc via --css */
+/* Based on epub-css-baseline (https://github.com/ai-autocoder/epub-css-baseline) */
 
-@page {
-  margin: 10px;
-}
-
-html {
-  line-height: 1.5;
-  font-family: Georgia, serif;
-}
-
-p {
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
   text-align: justify;
-  text-indent: 0;
-  margin: 1em 0;
   widows: 2;
   orphans: 2;
+  font-size: 1em;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 0.65em 0;
+  text-indent: 1.2em;
+  overflow-wrap: break-word;
+}
+
+/* No indent for the first paragraph after a heading or block element */
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p,
+blockquote + p, hr + p { text-indent: 0; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.2em 0 0.4em 0;
+  font-weight: bold;
+  text-align: left;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  break-after: avoid;
+  break-inside: avoid;
 }
 
 h1 {
-  text-align: left;
-  margin: 3em 0 0 0;
-  font-size: 2em;
-  font-weight: bold;
   page-break-before: always;
 }
 
-h2 {
-  text-align: left;
-  margin: 1.5em 0 0 0;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-h1, h2, h3 {
-  page-break-after: avoid;
-  page-break-inside: avoid;
-}
-
+/* Blockquotes */
 blockquote {
-  margin: 1em 0 1em 1.7em;
+  margin: 0.8em 1.6em;
+  font-style: italic;
 }
+blockquote p { text-indent: 0; }
 
+/* Horizontal rules (scene breaks) */
 hr {
   border: none;
   height: 1px;
-  background-color: #1a1a1a;
+  background-color: currentColor;
+  opacity: 0.3;
   margin: 1.5em 0;
 }
 
-a {
-  color: #1a1a1a;
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
-a.footnote-ref {
-  vertical-align: super;
-}
+/* Footnote references */
+a.footnote-ref { vertical-align: super; }
 
+/* Nested italics (em inside em) */
 em, em em em, em em em em em { font-style: italic; }
 em em, em em em em { font-style: normal; }
 
-header {
-  margin-bottom: 4em;
-  text-align: center;
-}
-
+/* Navigation */
 nav#toc ol,
 nav#landmarks ol { padding: 0; margin-left: 1em; }
 nav#toc ol li,
