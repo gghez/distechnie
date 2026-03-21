@@ -177,11 +177,12 @@ Simon poussa le code en *review*\*.
 
 ---
 
-\* **Review** : relecture du code par un pair avant intégration.
+* **Review** : relecture du code par un pair avant intégration.
 ```
 
 **Règles :**
 - Un terme n'est annoté qu'à sa **première occurrence** dans le chapitre
 - La note doit être **courte et accessible** — on écrit pour un lecteur non-technique
-- Les notes sont regroupées en bas du chapitre, après un séparateur `---`
+- Les notes sont regroupées en **liste à puces** en bas du chapitre, après un séparateur `---`
+- Ne pas utiliser `\*` (astérisque échappée) en début de ligne — utiliser `*` (liste markdown) pour que chaque note soit un item distinct
 - Ne pas annoter les termes déjà courants dans le langage commun (ex : *bug* est compris de tous, pas besoin de note)

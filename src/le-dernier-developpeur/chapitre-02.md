@@ -83,6 +83,6 @@ Il referma l'écran et resta dans le noir.
 
 ---
 
-\* **Slack** : messagerie professionnelle en ligne, très utilisée dans les entreprises technologiques.
-\* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
-\* **Refactorer** *(refactoring)* : réécrire du code existant pour l'améliorer sans changer ce qu'il fait.
+* **Slack** : messagerie professionnelle en ligne, très utilisée dans les entreprises technologiques.
+* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+* **Refactorer** *(refactoring)* : réécrire du code existant pour l'améliorer sans changer ce qu'il fait.

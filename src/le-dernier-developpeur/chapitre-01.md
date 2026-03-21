@@ -175,10 +175,10 @@ La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
 
 ---
 
-\* **Refacto** *(refactoring)* : réécriture d'un morceau de code pour l'améliorer sans changer ce qu'il fait.
-\* **Sprint** : période de travail fixe (généralement deux semaines) dans les méthodes de gestion de projet agiles.
-\* **Revue** *(de code)* : relecture du code par un pair avant de l'intégrer au logiciel.
-\* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
-\* **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
-\* **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
-\* **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
+* **Refacto** *(refactoring)* : réécriture d'un morceau de code pour l'améliorer sans changer ce qu'il fait.
+* **Sprint** : période de travail fixe (généralement deux semaines) dans les méthodes de gestion de projet agiles.
+* **Revue** *(de code)* : relecture du code par un pair avant de l'intégrer au logiciel.
+* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+* **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
+* **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
+* **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
