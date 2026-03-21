@@ -4,6 +4,7 @@
 
 <div class="epub-download">
   <a href="../epub/le-dernier-developpeur.epub" download>⬇ Télécharger en EPUB</a>
+  <a href="../epub/le-dernier-developpeur.kepub.epub" download class="kobo">⬇ Version Kobo</a>
 </div>
 
 <div class="guidelines-link">

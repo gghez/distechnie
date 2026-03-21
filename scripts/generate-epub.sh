@@ -50,10 +50,16 @@ for story_dir in "$SRC_DIR"/*/; do
     -o "$output_file" \
     "${sorted_files[@]}"
 
-  # Fix footnote id placement for Kobo compatibility
-  python3 "$(dirname "$0")/fix-epub-footnotes.py" "$output_file"
-
   echo "  Done: $output_file"
+
+  # Generate Kobo-optimized version (.kepub.epub) with kepubify
+  if command -v kepubify &>/dev/null; then
+    kobo_file="$OUTPUT_DIR/$story_name.kepub.epub"
+    kepubify -o "$kobo_file" "$output_file"
+    echo "  Done: $kobo_file (Kobo)"
+  else
+    echo "  Skipping Kobo version: kepubify not found"
+  fi
 done
 
 echo "EPUB generation complete."

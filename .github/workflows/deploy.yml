@@ -17,6 +17,7 @@ concurrency:
 env:
   MDBOOK_VERSION: "0.4.44"
   PANDOC_VERSION: "3.6.4"
+  KEPUBIFY_VERSION: "4.0.4"
 
 jobs:
   build:
@@ -30,7 +31,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/tools
-          key: tools-mdbook-${{ env.MDBOOK_VERSION }}-pandoc-${{ env.PANDOC_VERSION }}
+          key: tools-mdbook-${{ env.MDBOOK_VERSION }}-pandoc-${{ env.PANDOC_VERSION }}-kepubify-${{ env.KEPUBIFY_VERSION }}
 
       - name: Install mdBook
         if: steps.cache-tools.outputs.cache-hit != 'true'
@@ -44,6 +45,12 @@ jobs:
         run: |
           curl -sSL "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz" -o /tmp/pandoc.tar.gz
           tar -xzf /tmp/pandoc.tar.gz --strip-components=2 -C ~/tools "pandoc-${PANDOC_VERSION}/bin/pandoc"
+
+      - name: Install kepubify
+        if: steps.cache-tools.outputs.cache-hit != 'true'
+        run: |
+          curl -sSL "https://github.com/pgaskin/kepubify/releases/download/v${KEPUBIFY_VERSION}/kepubify-linux-64bit" -o ~/tools/kepubify
+          chmod +x ~/tools/kepubify
 
       - name: Add tools to PATH
         run: echo "$HOME/tools" >> "$GITHUB_PATH"

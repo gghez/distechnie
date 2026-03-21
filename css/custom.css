@@ -49,6 +49,17 @@
   color: #fff;
 }
 
+.epub-download a.kobo {
+  border-color: #bf4045;
+  color: #bf4045;
+  margin-left: 0.5rem;
+}
+
+.epub-download a.kobo:hover {
+  background-color: #bf4045;
+  color: #fff;
+}
+
 /* Guidelines link — decent touch target */
 .guidelines-link {
   margin: 1rem 0;
