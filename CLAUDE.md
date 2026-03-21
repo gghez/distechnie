@@ -1,3 +1,5 @@
+@CLAUDE.local.md
+
 # Distechnie
 
 ## Concept
@@ -219,6 +221,10 @@ Even without the skill, the rule applies: never write a chapter without having t
 - End chapters on a hook or revelation to maintain momentum
 - Source files (raw markdown) should not linger at the project root — integrate them into `src/`
 
+### Character Renaming
+
+When renaming a character, **grep for the old name across all files in the story directory** (`index.md`, `guidelines.md`, all `chapitre-*.md`) and replace every occurrence in one pass. Characters can appear in any chapter — never rename in a single file only.
+
 ### Content Integrity Rules
 
 **Story content is sacred. Never process it with batch text transformations (sed, awk, regex pipelines) that could silently destroy text.**
@@ -229,6 +235,17 @@ When migrating or transforming markdown content:
 - **Always verify line counts** before and after any transformation: `wc -l` on source vs output. Any significant difference means content was lost.
 - **Prefer writing files directly** (via Write tool or manual copy) over piping through text-processing chains.
 - When in doubt, **read the output file and compare** with the original to confirm nothing was lost.
+
+### Git Workflow
+
+This project uses a simple workflow:
+1. `git add` the relevant files
+2. `git commit` with a clear message in English
+3. `git push` to `main`
+
+GitHub Actions CI handles the build and deployment automatically. No merge requests, no branches, no reviewers.
+
+When the user says "envoie ça", "push", "ship", or equivalent — just commit and push to main.
 
 ### Local Development
 

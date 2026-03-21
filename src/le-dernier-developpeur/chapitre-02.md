@@ -13,29 +13,35 @@ Simon entendait ces phrases partout. À la machine à café. En réunion. Au té
 
 La direction, elle, ne murmurait pas. Elle communiquait.
 
-Pierre Granet, le CEO de Nério, avait envoyé un mail à toute la boîte début juin. Simon l'avait lu trois fois, fasciné par l'exercice de contorsion sémantique.
+Pierre Granet, le CEO de Nério, avait envoyé un mail à toute la boîte début juin. Simon l'avait lu trois fois.
 
-*« Dans un contexte de transformation accélérée, Nério s'adapte pour rester à la pointe de l'innovation. Notre stratégie d'intégration des outils d'intelligence artificielle nous permet de renforcer notre agilité tout en optimisant nos ressources. Certains ajustements organisationnels seront nécessaires pour accompagner cette évolution. »*
+*« Dans un contexte de transformation accélérée, Nério s'adapte pour rester à la pointe de l'innovation. Notre stratégie d'intégration des outils d'intelligence artificielle nous permet de renforcer notre agilité tout en optimisant nos ressources. Certains ajustements organisationnels seront nécessaires pour accompagner cette évolution. Chaque collaborateur reste au cœur de notre projet d'entreprise, et nous vous accompagnerons individuellement dans cette transition. »*
 
-Traduction : on va virer du monde. Encore.
+C'était trop bien écrit. Trop lisse, trop calibré. Simon reconnaissait la patte — les transitions fluides, l'absence totale de mot superflu, cette manière de dire des choses terribles avec la douceur d'un médecin qui annonce un cancer. Aucun dirigeant n'écrivait comme ça. Granet encore moins — le type ponctuait ses mails de trois points de suspension et mettait des majuscules aux mots qu'il trouvait importants.
 
-Simon avait montré le mail à Karim, le développeur back-end qui occupait le poste à côté du sien. Karim était un type solide, dix ans de métier, trois enfants, un crédit immobilier à Cergy.
+Ce mail avait été écrit par un agent. Le CEO avait demandé à une IA de rédiger le message qui annonçait à ses employés qu'une IA allait prendre leur travail.
 
-— "Ajustements organisationnels", avait lu Karim à voix haute. Il avait secoué la tête. Tu crois que ça nous concerne, nous les devs ?
+Simon faillit rire. Puis la nausée l'emporta sur le rire.
+
+Simon avait montré le mail à Rémy, le développeur back-end qui occupait le poste à côté du sien. Rémy était un type solide, quinze ans de métier, le genre de mec qui avait tout bien fait.
+
+— "Ajustements organisationnels", avait lu Rémy à voix haute. Il avait secoué la tête. Tu crois que ça nous concerne, nous les devs ?
 
 — Tout le monde sera concerné, avait dit Simon.
 
 — Non mais nous, les devs seniors. On est le cœur du réacteur. Sans nous, il n'y a pas de produit.
 
-Simon n'avait pas répondu. Il n'avait pas envie d'expliquer à Karim que le cœur du réacteur, désormais, c'était une API et un modèle de langage.
+Simon n'avait pas répondu. Il n'avait pas envie d'expliquer à Rémy que le cœur du réacteur, désormais, c'était une API et un modèle de langage.
 
 ---
 
 À l'extérieur de Nério, le monde commençait à tanguer.
 
-Les premiers chiffres du chômage tombèrent en septembre, et ils firent l'effet d'une douche froide. Les postes dans le tertiaire fondaient. Pas un secteur à la fois, pas une catégorie précise — partout en même temps, comme une marée qui se retire. Comptabilité, marketing, juridique, support, gestion de projet, analyse de données. Les agents grignotaient tout, méthodiquement, sans bruit.
+Sur YouTube, les premiers à flairer le sang étaient les mêmes que d'habitude : les prophètes de malheur, les cyniques à micro-cravate et néons RGB, ceux qui avaient déjà prédit l'effondrement du dollar, la fin de l'Europe et l'apocalypse quantique. Sauf que cette fois, ils avaient raison. Leurs vidéos tournaient en boucle dans les open spaces, partagées en douce sur Slack avec un émoji ricanant. *"Votre job n'existera plus dans 18 mois"*, *"L'IA vous a déjà remplacé, vous ne le savez pas encore"*. Titres racoleurs, montages agressifs, le ton goguenard de ceux qui jubilent d'avoir vu juste. Simon en regardait quelques-unes, le soir, avec un mélange de dégoût et de reconnaissance. Ils disaient ce que personne n'osait dire au bureau. Mal, avec trop de drama et pas assez de nuance — mais ils le disaient.
 
-Les chaînes d'info en continu découvrirent le sujet avec leur subtilité habituelle. Plateaux anxiogènes, experts en cravate, courbes rouges plein écran. *"La France face au choc IA"*, titraient les bandeaux.
+Puis les chiffres officiels du chômage tombèrent en septembre, et les chaînes sérieuses n'eurent plus le choix. Les postes dans le tertiaire fondaient. Pas un secteur à la fois, pas une catégorie précise — partout en même temps, comme une marée qui se retire. Comptabilité, marketing, juridique, support, gestion de projet, analyse de données. Les agents grignotaient tout, méthodiquement, sans bruit.
+
+Les chaînes d'info en continu découvrirent le sujet avec leur subtilité habituelle. Plateaux anxiogènes, experts en cravate, courbes rouges plein écran. *"La France face au choc IA"*, titraient les bandeaux. Les mêmes YouTubers que tout le monde moquait deux mois plus tôt étaient désormais invités sur les plateaux. Ils avaient troqué les néons RGB pour des blazers, mais le sourire était le même — celui de Cassandre à qui on donne enfin le micro.
 
 Simon regardait ces débats le soir, dans son appartement de Montreuil, avec un sentiment étrange. C'était comme voir un film dont il avait lu le scénario. Les experts s'écharpaient sur des questions qu'il avait résolues dans sa tête depuis des mois. Fallait-il réguler ? Taxer les agents ? Ralentir le déploiement ?
 

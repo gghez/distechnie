@@ -15,15 +15,15 @@ Mais ce qui fascinait Simon, ce n'était pas les départs. C'était ce que faisa
 
 Ils mentaient.
 
-Karim, par exemple. Karim, le développeur solide, dix ans de métier. Simon l'observait depuis des semaines et avait fini par comprendre son manège. Karim arrivait tôt, ouvrait son IDE, lançait un agent sur la tâche du jour, et passait les heures suivantes à *reformuler*. Il prenait le code produit par l'agent, le découpait, le redistribuait dans des commits séparés, ajoutait des commentaires manuscrits, modifiait des noms de variables. Il recopiait au propre. Il faisait croire que c'était lui.
+Rémy, par exemple. Rémy, le freelance solide, quinze ans de métier, deux gamins à l'école primaire et un crédit à Cergy. Simon l'observait depuis des semaines et avait fini par comprendre son manège. Rémy arrivait tôt, ouvrait son IDE, lançait un agent sur la tâche du jour, et passait les heures suivantes à *reformuler*. Il prenait le code produit par l'agent, le découpait, le redistribuait dans des commits séparés, ajoutait des commentaires manuscrits, modifiait des noms de variables. Il recopiait au propre. Il faisait croire que c'était lui.
 
-Le soir, Karim partait à dix-neuf heures, l'air épuisé.
+Le soir, Rémy partait à dix-neuf heures, l'air épuisé.
 
 Il y avait aussi Nathalie, la cheffe de projet. Nathalie avait transformé sa journée en une performance théâtrale remarquable. Elle organisait des réunions — beaucoup de réunions. Des points d'avancement, des syncs, des rétros, des pré-rétros, des post-mortems de post-mortems. Elle convoquait, animait, rédigeait des comptes rendus, envoyait des mails de suivi. Une activité frénétique, un tourbillon de productivité apparente.
 
 Sauf que la production réelle — les décisions, la priorisation, le suivi des livrables — était gérée par un agent qui tournait en arrière-plan sur son poste. Nathalie faisait du bruit pour couvrir le silence.
 
-Simon la comprenait. Il comprenait Karim aussi. Ils avaient des loyers, des crédits, des enfants. Ils avaient peur. Et la peur, quand elle est assez forte, transforme n'importe qui en acteur.
+Simon la comprenait. Il comprenait Rémy aussi. Ils avaient des loyers, des crédits, des enfants. Ils avaient peur. Et la peur, quand elle est assez forte, transforme n'importe qui en acteur.
 
 Le plus troublant, c'est que Simon faisait pareil.
 

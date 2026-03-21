@@ -13,7 +13,7 @@ Il ne codait plus. Il avait essayé, les premiers mois, par réflexe, par identi
 
 Le pire, c'était d'avoir eu raison.
 
-Simon avait prédit tout cela — pas dans les détails, pas avec cette ampleur, mais dans les grandes lignes. Il l'avait dit à Romain, à Karim, à Joachim, à Emeric. Il l'avait dit dans des dîners, dans des bars, dans des réunions. Et personne n'avait écouté.
+Simon avait prédit tout cela — pas dans les détails, pas avec cette ampleur, mais dans les grandes lignes. Il l'avait dit à Romain, à Rémy, à Joachim, à Emeric. Il l'avait dit dans des dîners, dans des bars, dans des réunions. Et personne n'avait écouté.
 
 Maintenant que tout le monde vivait dans le monde qu'il avait décrit, personne ne venait lui dire : tu avais raison. Personne ne s'en souvenait, ou personne ne voulait s'en souvenir. La prophétie accomplie n'apporte aucune gloire au prophète. Elle n'apporte que de la solitude.
 

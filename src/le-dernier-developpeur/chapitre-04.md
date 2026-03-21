@@ -5,7 +5,7 @@
 
 L'idée germa comme germent les mauvaises idées : par désespoir.
 
-Simon ne sut jamais qui avait commencé. Peut-être Karim. Peut-être quelqu'un d'un autre service. Mais au début de l'été, une pratique nouvelle se répandit dans les bureaux de Nério, et Simon soupçonnait qu'elle n'était pas limitée à leur boîte.
+Simon ne sut jamais qui avait commencé. Peut-être Rémy. Peut-être quelqu'un d'un autre service. Mais au début de l'été, une pratique nouvelle se répandit dans les bureaux de Nério, et Simon soupçonnait qu'elle n'était pas limitée à leur boîte.
 
 Les gens sabotaient les agents.
 
@@ -39,17 +39,17 @@ Les commentaires sous l'article oscillaient entre la compassion et le mépris. *
 
 Simon ferma l'article et resta longtemps assis dans le noir de son appartement.
 
-Le lendemain, il prit un café avec Karim. Pas au bureau — en bas, dans le PMU du coin, un endroit improbable pour deux développeurs en chemise, mais un endroit où personne ne les écouterait.
+Le lendemain, il prit un café avec Rémy. Pas au bureau — en bas, dans le PMU du coin, un endroit improbable pour deux développeurs en chemise, mais un endroit où personne ne les écouterait.
 
 — Tu sais ce qu'ils font, dit Simon. Les sabotages.
 
-Karim ne répondit pas tout de suite. Il touilla son café, regarda par la fenêtre.
+Rémy ne répondit pas tout de suite. Il touilla son café, regarda par la fenêtre.
 
 — Je sais.
 
 — Tu participes ?
 
-— Non. Karim marqua une pause. Mais je comprends.
+— Non. Rémy marqua une pause. Mais je comprends.
 
 — Ça ne marchera pas.
 
@@ -57,7 +57,7 @@ Karim ne répondit pas tout de suite. Il touilla son café, regarda par la fenê
 
 Ils burent leur café en silence. Dehors, un livreur Uber Eats passa à vélo, zigzaguant entre les voitures. Même lui, pensa Simon. Même les livreurs. Les véhicules autonomes arrivaient.
 
-— Tu sais ce qui me rend dingue ? dit Karim soudain. C'est pas de perdre mon job. C'est de perdre ce que je suis. Je suis développeur, Simon. Depuis quinze ans. C'est ce que je *suis*. Et là on me dit que ce que je suis, ça vaut moins qu'un abonnement mensuel à une API.
+— Tu sais ce qui me rend dingue ? dit Rémy soudain. C'est pas la thune. Ma femme bosse, on s'en sortirait. C'est de perdre ce que je suis. Je suis développeur, Simon. Depuis quinze ans. C'est ce que je *suis*. Et là on me dit que ce que je suis, ça vaut moins qu'un abonnement mensuel à une API.
 
 Simon n'eut rien à répondre à ça.
 

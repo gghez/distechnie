@@ -49,7 +49,7 @@ Le marché immobilier se figea. Plus personne n'achetait. Plus personne ne venda
 
 Simon gardait son appartement de Montreuil grâce à la loi. Son propriétaire, un retraité qui avait investi ses économies dans ce deux-pièces, l'appela un jour.
 
-— Monsieur Music, je ne vous en veux pas. Mais vous comprenez que je ne peux pas continuer comme ça.
+— Monsieur Darcy, je ne vous en veux pas. Mais vous comprenez que je ne peux pas continuer comme ça.
 
 — Je comprends, dit Simon. Et il le pensait.
 

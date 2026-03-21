@@ -24,7 +24,7 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 
 ## Personnages
 
-### Simon Music
+### Simon Darcy
 - 34 ans, développeur full-stack dans une scale-up parisienne (Nério, à Levallois)
 - Vit dans un deux-pièces à Montreuil
 - Lucide, un peu cassandre, pas assez écouté
@@ -33,6 +33,14 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 - Finit par perdre son poste quand Nério fait faillite et se fait racheter (carnet de clients, propriété intellectuelle)
 - Vers la fin, ne peut plus parler de son passé de développeur — c'est devenu honteux, dangereux socialement
 - Porte la culpabilité collective de ceux qui ont construit les outils
+
+### Rémy
+- 43 ans, développeur back-end freelance chez Nério (poste à côté de Simon)
+- Marié, deux enfants (7 et 10 ans)
+- Bonne situation financière : facture bien en freelance, bon niveau de vie
+- Sa femme est juriste et gagne bien sa vie également — foyer confortable, crédit immobilier à Cergy
+- Type solide, quinze ans de métier, ancré dans le concret
+- A beaucoup à perdre — ce qui rend sa chute d'autant plus vertigineuse
 
 ### Joachim
 - Ami de longue date de Simon (anciens collègues / amis de prépa)
@@ -140,6 +148,7 @@ Le paradoxe central : lorsque les gens avec le plus haut pouvoir d'achat n'ont p
 - **La culpabilité du créateur :** Simon a construit les outils qui ont détruit le monde du travail
 - **Personne n'est vraiment le méchant :** le système s'effondre sous sa propre logique, tout le monde est à la fois coupable et victime
 - **Le savoir-faire vs le savoir faire faire**
+- **L'hypnose de l'agent :** l'effet grisant de regarder un agent travailler à sa place — on pourrait en lancer un autre en parallèle, être plus productif, mais c'est hypnotisant de le regarder faire, comme un feu de cheminée numérique. La fascination passive qui remplace l'action.
 
 ---
 

@@ -5,6 +5,9 @@ book/
 .DS_Store
 Thumbs.db
 
+# Local Claude instructions
+CLAUDE.local.md
+
 # Editor files
 *.swp
 *.swo
