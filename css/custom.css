@@ -1,18 +1,21 @@
 /* Distechnie - Custom styles */
+/* Compatible with Kobo e-reader built-in browser (WebKit 537.x / Qt 5.2.1) */
+/* No CSS variables, no CSS Grid, no modern flexbox, no transitions (e-ink ghosting) */
 
 /* Better reading experience */
 .content main {
   max-width: 45rem;
   line-height: 1.8;
+  font-size: 1.1rem;
 }
 
 /* WIP banner */
 .wip-banner {
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1.2rem;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-style: italic;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   background-color: #332b00;
   border: 1px solid #665500;
   color: #ffd54f;
@@ -25,40 +28,38 @@
   color: #856404;
 }
 
-/* EPUB download link */
+/* EPUB download link — large touch target for e-ink devices */
 .epub-download {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .epub-download a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--links);
-  border-radius: 4px;
-  font-size: 0.85rem;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #4a90d9;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.2s;
+  color: #4a90d9;
 }
 
 .epub-download a:hover {
-  background-color: var(--links);
-  color: var(--bg);
+  background-color: #4a90d9;
+  color: #fff;
 }
 
-/* Guidelines link */
+/* Guidelines link — decent touch target */
 .guidelines-link {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 .guidelines-link a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.85rem;
-  opacity: 0.7;
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 1rem;
   text-decoration: none;
+  opacity: 0.7;
 }
 
 .guidelines-link a:hover {
