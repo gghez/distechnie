@@ -1,0 +1,29 @@
+[book]
+title = "Distechnie"
+authors = ["gghez"]
+description = "Recueil de nouvelles dystopiques — quand la technologie dérape, l'humanité vacille."
+language = "fr"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "coal"
+preferred-dark-theme = "coal"
+smart-punctuation = true
+no-section-label = true
+additional-css = ["css/custom.css"]
+git-repository-url = "https://github.com/gghez/distechnie"
+site-url = "/distechnie/"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.search]
+enable = true
+
+[output.html.print]
+enable = false

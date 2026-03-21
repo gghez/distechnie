@@ -1,8 +1,3 @@
----
-title: "Distechnie"
-type: docs
----
-
 # Distechnie
 
 **Recueil de nouvelles dystopiques**

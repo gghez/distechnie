@@ -1,11 +1,5 @@
----
-title: "Chapitre 3 — Les masques"
-weight: 3
----
 
 # Chapitre 3 — Les masques
-
-{{< epub-link story="le-dernier-developpeur" >}}
 
 *Acte II — Le grand mensonge*
 
@@ -43,28 +37,3 @@ Leurs regards se croisèrent à travers la vitre. Thomas détourna les yeux.
 
 Simon continua son chemin, la gorge nouée.
 
----
-
-Le soir, il appela Emeric.
-
-— Tu fais quoi en ce moment ?
-
-— Je suis sur une mission de trois mois. Transition digitale pour un assureur. Tu vas rire : mon job c'est de former les équipes à utiliser les agents qui vont les remplacer.
-
-— Tu leur dis ça ?
-
-— Non. Je leur dis que les agents vont les "assister". C'est le mot officiel. *Assister.*
-
-Un silence.
-
-— Emeric ?
-
-— Ouais ?
-
-— Tout le monde ment.
-
-— Évidemment. Tu t'attendais à quoi ?
-
-Simon ne savait pas à quoi il s'attendait. Peut-être à de la révolte. Peut-être à des manifestations, des grèves, des débats enflammés. Au lieu de ça, il avait des gens qui faisaient semblant de travailler et d'autres gens qui faisaient semblant de ne pas voir.
-
-C'était pire que tout ce qu'il avait imaginé. Pas un effondrement bruyant. Un effritement silencieux.

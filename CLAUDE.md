@@ -27,161 +27,180 @@ Stories explore one or more of these themes:
 
 ## Site Architecture
 
-### Hugo Static Site
+### mdBook Static Site
 
-- **Theme**: [hugo-book](https://github.com/alex-shpak/hugo-book) — installed as a git submodule in `themes/hugo-book`
+- **Generator**: [mdBook](https://rust-lang.github.io/mdBook/) — a Rust tool designed for publishing books from Markdown
 - **Deployment**: GitHub Pages via GitHub Actions (`.github/workflows/deploy.yml`)
 - **URL**: https://gghez.github.io/distechnie/
 - **Language**: French (content and UI)
-- **Config**: `hugo.toml` — BookSection is set to `stories`, dark/light mode auto
+- **Config**: `book.toml` — dark theme by default, smart punctuation, no section labels, search enabled
 
-### Content Structure
+### Project Structure
 
 ```
-content/
-  _index.md                          # Landing page
-  menu/
-    index.md                         # Sidebar top-level menu (headless bundle)
-  stories/
-    _index.md                        # Stories index
-    <story-slug>/
-      _index.md                      # Story overview (title, synopsis, metadata, shortcodes)
-      chapitre-01.md                 # Chapter 1
-      chapitre-02.md                 # Chapter 2
-      ...
-      guidelines.md                  # Creative guidelines (hidden from sidebar)
+distechnie/
+├── book.toml                        # mdBook configuration
+├── CLAUDE.md                        # Project guidelines (this file)
+├── css/
+│   └── custom.css                   # Custom styles (WIP banner, EPUB link, etc.)
+├── scripts/
+│   └── generate-epub.sh             # EPUB generation via pandoc
+├── src/
+│   ├── SUMMARY.md                   # Table of contents / navigation structure
+│   ├── introduction.md              # Landing page
+│   └── <story-slug>/
+│       ├── index.md                 # Story overview (synopsis, links, WIP banner)
+│       ├── chapitre-01.md           # Chapter 1
+│       ├── chapitre-02.md           # Chapter 2
+│       ├── ...
+│       └── guidelines.md            # Creative guidelines for this story
+└── .github/
+    └── workflows/
+        └── deploy.yml               # CI: EPUB generation + mdBook build + Pages deploy
 ```
 
-### Custom Shortcodes
+### Navigation (SUMMARY.md)
 
-All shortcodes live in `layouts/shortcodes/`:
+`src/SUMMARY.md` controls the sidebar navigation. It must be updated manually when adding stories or chapters.
 
-| Shortcode | File | Purpose |
-|---|---|---|
-| `{{</* story-status */>}}` | `story-status.html` | Renders a WIP banner if `status: wip` in front matter |
-| `{{</* epub-link story="<slug>" */>}}` | `epub-link.html` | Download button linking to `/epub/<slug>.epub` |
-| `{{</* guidelines-link */>}}` | `guidelines-link.html` | Link to the story's guidelines page (renders only if `guidelines.md` exists) |
-| `{{</* story-toc */>}}` | `story-toc.html` | Auto-generated ordered list of child chapter pages |
+Structure pattern:
+```markdown
+# Summary
 
-### Custom Styles
+[Distechnie](introduction.md)
 
-- `assets/css/custom.css` — site styles (EPUB link, guidelines link, WIP banner, reading experience)
-- `assets/css/epub.css` — EPUB-specific typography (Georgia, justified text, page breaks)
-- `layouts/partials/custom-head.html` — injects `custom.css` into the HTML head
-
-### Logo
-
-`static/images/logo.svg` — broken hexagon chip with glitch text, uses `currentColor` for auto dark/light adaptation.
-
-## Story _index.md Format
-
-```yaml
 ---
-title: "Story Title"
-weight: <order in sidebar>
-bookCollapseSection: false
-status: wip  # optional — "wip" shows a yellow banner, omit or remove when the story is complete
----
+
+# Story Title
+
+- [Présentation](<story-slug>/index.md)
+  - [Chapitre 1 — Title](<story-slug>/chapitre-01.md)
+  - [Chapitre 2 — Title](<story-slug>/chapitre-02.md)
+  - ...
+  - [Guidelines](<story-slug>/guidelines.md)
 ```
 
-The body should contain (in this order):
+Key rules:
+- Each story is a **part** (level-1 heading `# Story Title`)
+- The story index is the top-level item, chapters are nested under it
+- Guidelines page is listed last under the story
+- Use `---` separators between stories
+- Draft chapters can use `[Chapter Title]()` (empty link, renders as disabled)
+
+## Story index.md Format
+
+Each story's `index.md` contains (in order):
 1. Story title as H1
-2. `{{</* story-status */>}}` shortcode (WIP banner, only renders if `status: wip`)
-3. `{{</* epub-link story="<story-slug>" */>}}` shortcode (EPUB download)
-4. `{{</* guidelines-link */>}}` shortcode (link to guidelines page, only renders if `guidelines.md` exists)
+2. WIP banner (HTML div, if the story is not complete)
+3. EPUB download link (HTML div)
+4. Guidelines link (HTML div)
 5. Genre and synopsis
-6. `---` separator
-7. `{{</* story-toc */>}}` shortcode (chapter listing)
 
-## Guidelines Page
+```markdown
+# Story Title
 
-Each story can (and should) have a `guidelines.md` file containing the creative guidelines used to build the story: concept, characters, plot structure, writing principles. This is the reference document for writing sessions with Claude Code.
+<div class="wip-banner">En cours d'écriture — Cette nouvelle n'est pas encore terminée.</div>
 
-- Uses `bookHidden: true` so it does not appear in the sidebar navigation
-- Uses `weight: 99` to keep it last in page ordering
-- Accessible via the `{{</* guidelines-link */>}}` shortcode on the story's index page
-- **Source markdown files should not be kept at the project root** — they are integrated into the story directory
+<div class="epub-download">
+  <a href="../epub/<story-slug>.epub" download>⬇ Télécharger en EPUB</a>
+</div>
 
-```yaml
----
-title: "Guidelines"
-weight: 99
-bookHidden: true
----
+<div class="guidelines-link">
+  <a href="guidelines.html">📄 Guidelines de création</a>
+</div>
+
+**Genre :** ...
+
+**Résumé :** ...
 ```
+
+When the story is complete, remove the `wip-banner` div.
 
 ## Chapter Format
 
-```yaml
----
-title: "Chapitre N — Chapter Title"
-weight: <chapter number>
----
+Chapters are plain Markdown — no front matter, no shortcodes.
+
+```markdown
+# Chapitre N — Chapter Title
+
+*Acte X — Act Title*
+
+Chapter content...
 ```
 
-The body should contain:
-1. The chapter title as H1
-2. `{{</* epub-link story="<story-slug>" */>}}` shortcode
-3. Act subtitle in italics (e.g., `*Acte I — Les signaux*`) if the story uses acts
-4. The chapter content
+- The H1 title is the chapter title
+- Act subtitle in italics (if the story uses acts)
+- Content follows directly
+
+## Guidelines Page
+
+Each story should have a `guidelines.md` containing the creative guidelines: concept, characters, plot structure, writing principles. This is the reference document for writing sessions with Claude Code.
+
+- Listed in SUMMARY.md as the last entry under the story
+- No front matter needed (mdBook doesn't use front matter)
 
 ## Naming Conventions
 
 - Story directories: kebab-case (`le-dernier-developpeur`)
-- Chapter files: `chapitre-NN.md` (zero-padded two digits: `chapitre-01.md`, `chapitre-02.md`, ...)
+- Chapter files: `chapitre-NN.md` (zero-padded two digits)
+- Story index: always `index.md` inside the story directory
 - Guidelines file: always `guidelines.md` inside the story directory
-- EPUB files: `<story-slug>.epub` (auto-generated in `static/epub/`, never committed)
+- EPUB files: `<story-slug>.epub` (auto-generated in `book/epub/`, never committed)
 
 ## EPUB Generation
 
 EPUBs are generated by `scripts/generate-epub.sh` using pandoc:
 
-- Iterates over each story directory in `content/stories/`
-- Collects all `chapitre-*.md` files (sorted alphabetically, hence the zero-padded numbering)
-- Strips YAML front matter and Hugo shortcodes (`{{< ... >}}`, `{{% ... %}}`)
-- Generates a `.epub` with table of contents, French language metadata
-- Applies `assets/css/epub.css` for typography
-- Output goes to `static/epub/<story-slug>.epub`
+- Iterates over each story directory in `src/`
+- Collects all `chapitre-*.md` files (sorted alphabetically)
+- Extracts the title from the story's `index.md` (first H1 heading)
+- Generates a `.epub` with table of contents and French language metadata
+- Output goes to `book/epub/<story-slug>.epub`
 
-**EPUBs are generated during CI** (GitHub Actions) and should **NOT** be committed to git. They are listed in `.gitignore` under `static/epub/`.
+**EPUBs are generated during CI** and should **NOT** be committed to git. The entire `book/` directory is in `.gitignore`.
 
 ## CI/CD Pipeline
 
 `.github/workflows/deploy.yml` runs on every push to `main`:
 
-1. **Install Hugo** extended (v0.158.0)
-2. **Install pandoc** (for EPUB generation)
-3. **Checkout** with `submodules: recursive` (to get the hugo-book theme)
-4. **Generate EPUBs** — runs `scripts/generate-epub.sh`
-5. **Build Hugo** — `hugo --gc --minify` with the GitHub Pages base URL
-6. **Deploy** — pushes `public/` to GitHub Pages
+1. **Checkout** the repository
+2. **Install mdBook** (latest release binary)
+3. **Install pandoc** (for EPUB generation)
+4. **Build book** — `mdbook build` outputs to `book/`
+5. **Generate EPUBs** — runs `scripts/generate-epub.sh` (after build, into `book/epub/`)
+6. **Deploy** — pushes `book/` to GitHub Pages
 
-GitHub Pages is configured with `build_type: workflow` (not branch-based).
+## Custom Styles
+
+`css/custom.css` provides styles for:
+- `.wip-banner` — yellow/amber banner for stories in progress (adapts to light/dark themes)
+- `.epub-download` — styled download button
+- `.guidelines-link` — subtle link to guidelines page
+- `.act-subtitle` — italic act subtitles
+- Reading experience tweaks (max-width, line-height)
 
 ## Workflow Rules
 
 ### Writing a New Story
 
-1. Create the story directory: `content/stories/<story-slug>/`
-2. Create `guidelines.md` with the creative guidelines (concept, characters, structure, principles)
-3. Create `_index.md` with story metadata, synopsis, and all shortcodes (see format above)
-4. Set `status: wip` in front matter
-5. Write chapters as `chapitre-01.md`, `chapitre-02.md`, etc.
-6. Test locally: `hugo server --buildDrafts`
+1. Create the story directory: `src/<story-slug>/`
+2. Create `guidelines.md` with the creative guidelines
+3. Create `index.md` with synopsis, WIP banner, EPUB and guidelines links
+4. Write chapters as `chapitre-01.md`, `chapitre-02.md`, etc.
+5. Update `src/SUMMARY.md` to add the story and its chapters
+6. Test locally: `mdbook serve --open`
 7. Commit and push — CI builds the EPUB and deploys
 
 ### Writing a Chapter
 
 1. Create the chapter file following the naming convention
-2. Include the epub-link shortcode and act subtitle
-3. Use `draft: true` in front matter while work is in progress
-4. When ready, remove the draft flag and commit
+2. Add the chapter entry in `src/SUMMARY.md`
+3. Test locally: `mdbook serve`
 
 ### Completing a Story
 
-1. Remove `status: wip` from the story's `_index.md` front matter
-2. The WIP banner disappears automatically
-3. The guidelines page remains accessible for reference
+1. Remove the `<div class="wip-banner">...</div>` from the story's `index.md`
+2. Commit and push
 
 ### Content Guidelines
 
@@ -190,17 +209,17 @@ GitHub Pages is configured with `build_type: workflow` (not branch-based).
 - Never use copyrighted names or direct references to existing works
 - Each chapter should be **self-contained enough** to be satisfying on its own
 - End chapters on a hook or revelation to maintain momentum
-- Source files (raw markdown) should not linger at the project root — integrate them into the content structure
+- Source files (raw markdown) should not linger at the project root — integrate them into `src/`
 
 ### Local Development
 
 ```bash
-# Serve locally with drafts
-hugo server --buildDrafts
+# Serve locally with hot-reload
+mdbook serve --open
 
 # Generate EPUBs locally
 ./scripts/generate-epub.sh
 
-# Full build
-./scripts/generate-epub.sh && hugo --minify
+# Full build (mdbook first, then EPUBs into book/)
+mdbook build && ./scripts/generate-epub.sh
 ```
