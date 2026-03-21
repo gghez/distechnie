@@ -50,6 +50,9 @@ for story_dir in "$SRC_DIR"/*/; do
     -o "$output_file" \
     "${sorted_files[@]}"
 
+  # Fix footnote id placement for Kobo compatibility
+  python3 "$(dirname "$0")/fix-epub-footnotes.py" "$output_file"
+
   echo "  Done: $output_file"
 done
 
