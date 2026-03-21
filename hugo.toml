@@ -15,7 +15,7 @@ theme = 'hugo-book'
   BookTheme = 'auto'
   BookSearch = true
   BookComments = false
-  BookLogo = '/images/logo.svg'
+  BookLogo = 'images/logo.svg'
   BookMenuBundle = '/menu'
   description = "Recueil de nouvelles dystopiques — quand la technologie dérape, l'humanité vacille."
 
