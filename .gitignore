@@ -21,3 +21,4 @@ static/epub/
 
 # Temporary files
 /tmp/
+.hugo_build.lock
