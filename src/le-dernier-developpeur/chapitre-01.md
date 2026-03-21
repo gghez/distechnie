@@ -15,7 +15,7 @@ L'open space de Nério avait cette énergie qu'on ne trouve que dans les boîtes
 
 Simon Darcy aimait cet endroit. C'est ce qui rendait la chose pire.
 
-Sur son terminal, un agent venait de résoudre en onze secondes un bug qui lui aurait pris la matinée. Il le regardait faire, fasciné malgré lui — les lignes de code qui défilaient — bien plus que ce qu'un humain aurait écrit pour le même bug. Des tests partout, des vérifications pour chaque cas limite, un filet de sécurité qu'aucun développeur n'aurait eu la patience de tisser. Pas élégant. Exhaustif.
+Sur son terminal, un agent venait de résoudre en onze secondes un bug qui lui aurait pris la matinée. Il le regardait faire, fasciné malgré lui.
 
 Onze secondes.
 
@@ -45,7 +45,7 @@ Simon rentrait le soir dans son deux-pièces du côté de Montreuil, et il compt
 
 Un agent de niveau 4 remplaçait un développeur junior en huit semaines. Un agent de niveau 5 en rattrapait deux seniors sur les tâches de routine. Les agents de niveau 6 commençaient à gérer la conception, l'architecture, les choix techniques. Pas aussi bien qu'un humain. Pas encore. Mais à une fraction du coût, et sans jamais demander de RTT.
 
-La courbe était exponentielle. Simon la connaissait par cœur — c'était son métier, après tout, de comprendre les courbes.
+La courbe était exponentielle. Simon la connaissait par cœur — c'était son métier, après tout, de voir où mène une logique qu'on pousse au bout.
 
 Il en avait parlé à Joachim un soir, au téléphone. Joachim, son ami de prépa, devenu chercheur en biophysique, l'esprit toujours ailleurs, perdu entre ses protéines et ses publications.
 
@@ -69,7 +69,7 @@ Il ferma le carnet. Le rouvrit. Recalcula. Ça ne changeait pas.
 
 Ce qui le rongeait, ce n'était pas la conclusion — c'était la solitude de la conclusion. Joachim n'avait pas compris. Romain n'avait pas voulu comprendre. Et Simon n'avait personne à qui dire : la vague arrive, et tout le monde bronze sur la plage.
 
-À trois heures du matin, il se leva et alla à la fenêtre. Montreuil dormait. Quelques lampadaires orange, un scooter au loin, le silence des villes qui ne savent pas encore.
+À trois heures du matin, il se leva et alla à la fenêtre. Montreuil dormait. Quelques lampadaires orange, un scooter au loin, le silence des rails avant le train.
 
 ---
 
@@ -77,11 +77,23 @@ Le lendemain au bureau, tout était normal. C'est-à-dire que tout avait l'air n
 
 Nico se plaignait de la climatisation. Léa montrait une vidéo de chat sur son téléphone. Romain distribuait les tickets du sprint avec l'assurance tranquille de celui qui croit que les sprints existeront toujours.
 
-Simon prit son café, ouvrit son terminal, lança un agent sur un module de facturation. L'agent livra en sept minutes un pavé de code — trois fois ce que Simon aurait écrit pour le même résultat. Des tests pour des cas auxquels il n'aurait pas pensé, des validations partout, de la documentation intégrée. Plus lourd que du code humain, mais plus solide aussi. Simon avait regardé les lignes défiler pendant sept minutes, incapable de décrocher. On aurait pu lancer autre chose en parallèle, être productif. Mais c'était hypnotisant. Un feu de cheminée numérique.
+Simon prit son café, ouvrit son terminal, lança un agent sur un module de facturation. L'agent livra en sept minutes un pavé de code — trois fois ce que Simon aurait écrit pour le même résultat. Des tests pour des cas auxquels il n'aurait pas pensé, des validations partout, de la documentation intégrée. Plus lourd que du code humain, mais plus solide aussi. Simon avait regardé les lignes défiler pendant sept minutes, incapable de décrocher. Il aurait pu lancer autre chose en parallèle, être productif. Mais c'était hypnotisant. Un feu de cheminée numérique.
 
-Il poussa le code en *revue*[^revue]. Personne ne remarqua qu'il n'avait pas écrit une seule ligne.
+Il poussa le code en *revue*[^revue]. Aucune des lignes n'était de lui, mais son nom apparaissait dessus. Ça ne gênait plus personne.
 
-Le midi, ils déjeunèrent à six dans le japonais d'en bas. Nico raconta un match de foot, Romain parla de ses vacances en Crète, et Léa fit rire tout le monde avec une imitation du directeur commercial. C'était bien. C'était simple. Simon rit avec eux, sincèrement, et pendant une heure il oublia les courbes.
+Ce qui changea d'abord, ce fut les revues de code. Un par un, sans se concerter, les développeurs avaient pris l'habitude de soumettre les contributions de leurs agents à… un autre agent. L'agent écrivait, l'agent relisait. Le cercle se fermait tout seul.
+
+C'est Romain qui mit le doigt dessus, un matin, devant la machine à café.
+
+— Attendez. Si c'est un agent qui écrit le code, et un agent qui le relit… nous, on sert à quoi dans la boucle ?
+
+Silence. Léa souffla sur son café. Nico haussa les épaules.
+
+— À cliquer sur "approuver", dit Simon.
+
+Personne ne rit.
+
+Le midi, ils déjeunèrent à six dans le japonais d'en bas. Nico raconta un match de foot, Romain parla de ses vacances en Crète, et Léa fit rire tout le monde avec une imitation du directeur commercial. C'était bien. C'était simple. Simon rit avec eux, sincèrement, et pendant une heure il oublia ses chiffres.
 
 L'après-midi, un mail RH annonça le départ de Julien, un développeur junior de l'équipe data. *Julien a décidé de poursuivre de nouvelles opportunités.* La formule consacrée. Simon savait ce qu'elle signifiait : Julien n'avait rien décidé du tout.
 
@@ -109,7 +121,7 @@ La réponse fut immédiate : *Toujours.*
 
 ---
 
-Le lendemain soir, dans un bar du onzième — un de ces endroits bruyants où il faut crier pour se faire entendre — Simon vida son sac. Les agents, les chiffres, le carnet, Julien, Rémy. Tout.
+Le lendemain soir, dans un bar du onzième — un de ces endroits bruyants où il faut crier pour se faire entendre — Simon vida son sac. Les agents, ses chiffres, le carnet, Julien, Rémy. Tout.
 
 Emeric écouta. Il était entre deux missions, comme d'habitude. Ex-développeur reconverti chef de projet, il enchaînait les CDD et les périodes creuses depuis trois ans. Avant les agents. Avant la crise. Emeric galérait par nature, ou par malchance — Simon n'avait jamais su trancher.
 
