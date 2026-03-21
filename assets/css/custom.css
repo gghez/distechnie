@@ -31,6 +31,29 @@
   margin-bottom: 0.3rem;
 }
 
+/* Story status banner */
+.story-status {
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.story-status-wip {
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+}
+
+@media (prefers-color-scheme: dark) {
+  .story-status-wip {
+    background-color: #332b00;
+    border-color: #665500;
+    color: #ffd54f;
+  }
+}
+
 /* Better reading experience */
 .book-page {
   max-width: 48rem;

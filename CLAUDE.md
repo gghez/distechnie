@@ -54,13 +54,15 @@ content/
 title: "Story Title"
 weight: <order in sidebar>
 bookCollapseSection: false
+status: wip  # optional — "wip" shows a banner, omit when the story is complete
 ---
 ```
 
 The body should contain:
-1. `{{</* epub-link story="<story-slug>" */>}}` shortcode (EPUB download)
-2. Genre and synopsis
-3. `{{</* story-toc */>}}` shortcode (chapter listing)
+1. `{{</* story-status */>}}` shortcode (WIP banner, only renders if `status: wip`)
+2. `{{</* epub-link story="<story-slug>" */>}}` shortcode (EPUB download)
+3. Genre and synopsis
+4. `{{</* story-toc */>}}` shortcode (chapter listing)
 
 ### Chapter Format
 
