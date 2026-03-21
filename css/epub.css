@@ -1,0 +1,70 @@
+/* EPUB styles for Distechnie stories — injected by pandoc via --css */
+
+@page {
+  margin: 10px;
+}
+
+html {
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+p {
+  text-align: justify;
+  text-indent: 0;
+  margin: 1em 0;
+  widows: 2;
+  orphans: 2;
+}
+
+h1 {
+  text-align: left;
+  margin: 3em 0 0 0;
+  font-size: 2em;
+  font-weight: bold;
+  page-break-before: always;
+}
+
+h2 {
+  text-align: left;
+  margin: 1.5em 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+
+blockquote {
+  margin: 1em 0 1em 1.7em;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #1a1a1a;
+  margin: 1.5em 0;
+}
+
+a {
+  color: #1a1a1a;
+}
+
+a.footnote-ref {
+  vertical-align: super;
+}
+
+em, em em em, em em em em em { font-style: italic; }
+em em, em em em em { font-style: normal; }
+
+header {
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+nav#toc ol,
+nav#landmarks ol { padding: 0; margin-left: 1em; }
+nav#toc ol li,
+nav#landmarks ol li { list-style-type: none; margin: 0; padding: 0; }

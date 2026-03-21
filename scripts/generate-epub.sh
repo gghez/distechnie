@@ -47,6 +47,7 @@ for story_dir in "$SRC_DIR"/*/; do
     --metadata "lang=fr" \
     --toc \
     --toc-depth=2 \
+    --css="css/epub.css" \
     -o "$output_file" \
     "${sorted_files[@]}"
 
