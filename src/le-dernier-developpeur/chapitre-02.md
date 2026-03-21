@@ -5,7 +5,7 @@
 
 L'été fut celui des murmures.
 
-Dans les couloirs de Nério, dans les cafés de La Défense, dans les groupes *Slack*\* privés et les boucles WhatsApp, une même conversation tournait en boucle, à voix basse, comme une prière honteuse.
+Dans les couloirs de Nério, dans les cafés de La Défense, dans les groupes *Slack*[^slack-2] privés et les boucles WhatsApp, une même conversation tournait en boucle, à voix basse, comme une prière honteuse.
 
 *C'est temporaire. Ça va se tasser. On ne peut pas remplacer tout le monde.*
 
@@ -27,11 +27,11 @@ Simon avait montré le mail à Rémy. Celui-ci l'avait lu deux fois, mâchoire s
 
 — "Ajustements organisationnels", avait-il répété à voix basse. Puis, après un silence : Les juniors d'abord. Ensuite les chefs de projet. Nous, les seniors, on tient encore un moment.
 
-Il avait dit ça comme on récite une prière — pas parce qu'on y croit, mais parce qu'on a besoin de l'entendre. Simon reconnut le ton. C'était le même que celui de Rémy au *daily standup*\*, quelques mois plus tôt, quand il avait annoncé que l'agent avait fait sa migration en une nuit. Le même vertige, à peine maquillé en assurance.
+Il avait dit ça comme on récite une prière — pas parce qu'on y croit, mais parce qu'on a besoin de l'entendre. Simon reconnut le ton. C'était le même que celui de Rémy au *daily standup*[^daily-standup-2], quelques mois plus tôt, quand il avait annoncé que l'agent avait fait sa migration en une nuit. Le même vertige, à peine maquillé en assurance.
 
 — Tu crois vraiment ça ? demanda Simon.
 
-Rémy ne répondit pas tout de suite. Il regardait son écran, où un agent était en train de *refactorer*\* un module qu'il avait mis trois semaines à écrire l'année précédente.
+Rémy ne répondit pas tout de suite. Il regardait son écran, où un agent était en train de *refactorer*[^refactorer-2] un module qu'il avait mis trois semaines à écrire l'année précédente.
 
 — Non, finit-il par dire. Mais j'ai un crédit et deux gamins. Alors je vais faire comme si.
 
@@ -83,6 +83,6 @@ Il referma l'écran et resta dans le noir.
 
 ---
 
-* **Slack** : messagerie professionnelle en ligne, très utilisée dans les entreprises technologiques.
-* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
-* **Refactorer** *(refactoring)* : réécrire du code existant pour l'améliorer sans changer ce qu'il fait.
+[^slack-2]: **Slack** : messagerie professionnelle en ligne, très utilisée dans les entreprises technologiques.
+[^daily-standup-2]: **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+[^refactorer-2]: **Refactorer** *(refactoring)* : réécrire du code existant pour l'améliorer sans changer ce qu'il fait.

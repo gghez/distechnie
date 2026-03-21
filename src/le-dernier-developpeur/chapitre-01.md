@@ -3,7 +3,7 @@
 
 *Acte I — Les signaux*
 
-— Eh Nico, t'as vu ? L'agent a *refacto*\* tout le module de paiement pendant ta pause clope.
+— Eh Nico, t'as vu ? L'agent a *refacto*[^refacto] tout le module de paiement pendant ta pause clope.
 
 — Nique sa mère. Il a touché à mes tests aussi ?
 
@@ -25,7 +25,7 @@ Il avait trente-quatre ans, un CDI confortable, des collègues qu'il aimait, et 
 
 Ce n'était pas de la paranoïa. C'était de l'arithmétique.
 
-Il l'avait dit à Romain, son lead. Pas de manière solennelle, pas en convoquant une réunion — juste entre deux cafés, un mardi matin, en regardant les résultats du dernier *sprint*\*.
+Il l'avait dit à Romain, son lead. Pas de manière solennelle, pas en convoquant une réunion — juste entre deux cafés, un mardi matin, en regardant les résultats du dernier *sprint*[^sprint].
 
 — T'as vu le temps de résolution depuis qu'on utilise les agents ? avait demandé Simon.
 
@@ -79,7 +79,7 @@ Nico se plaignait de la climatisation. Léa montrait une vidéo de chat sur son 
 
 Simon prit son café, ouvrit son terminal, lança un agent sur un module de facturation. L'agent livra en sept minutes un pavé de code — trois fois ce que Simon aurait écrit pour le même résultat. Des tests pour des cas auxquels il n'aurait pas pensé, des validations partout, de la documentation intégrée. Plus lourd que du code humain, mais plus solide aussi. Simon avait regardé les lignes défiler pendant sept minutes, incapable de décrocher. On aurait pu lancer autre chose en parallèle, être productif. Mais c'était hypnotisant. Un feu de cheminée numérique.
 
-Il poussa le code en *revue*\*. Personne ne remarqua qu'il n'avait pas écrit une seule ligne.
+Il poussa le code en *revue*[^revue]. Personne ne remarqua qu'il n'avait pas écrit une seule ligne.
 
 Le midi, ils déjeunèrent à six dans le japonais d'en bas. Nico raconta un match de foot, Romain parla de ses vacances en Crète, et Léa fit rire tout le monde avec une imitation du directeur commercial. C'était bien. C'était simple. Simon rit avec eux, sincèrement, et pendant une heure il oublia les courbes.
 
@@ -87,7 +87,7 @@ L'après-midi, un mail RH annonça le départ de Julien, un développeur junior 
 
 ---
 
-Le mercredi, en *daily standup*\*, Rémy prit la parole avec son calme habituel. Freelance *back-end*\*, quarante-trois ans, posté à côté de Simon depuis deux ans — le genre de type solide qu'on imagine mal déstabilisé.
+Le mercredi, en *daily standup*[^daily-standup], Rémy prit la parole avec son calme habituel. Freelance *back-end*[^back-end], quarante-trois ans, posté à côté de Simon depuis deux ans — le genre de type solide qu'on imagine mal déstabilisé.
 
 — J'ai lancé un agent sur la migration de la base clients hier soir. Ce matin, c'était fini. J'ai relu, c'est nickel.
 
@@ -127,7 +127,7 @@ C'était dit sans amertume. Emeric ne faisait pas dans l'amertume.
 
 Au bureau, les choses avançaient à une vitesse que Simon trouvait obscène.
 
-En mars, Nério avait licencié les deux testeurs *QA*\*. Les agents couvraient quatre-vingt-quinze pour cent des cas de test. Les cinq pour cent restants ? On verrait en *prod*\*. Le lundi suivant, leurs bureaux étaient vides. Écrans éteints, chaises repoussées. Un mug *World's Okayest Tester* encore sur le plan de travail.
+En mars, Nério avait licencié les deux testeurs *QA*[^qa]. Les agents couvraient quatre-vingt-quinze pour cent des cas de test. Les cinq pour cent restants ? On verrait en *prod*[^prod]. Le lundi suivant, leurs bureaux étaient vides. Écrans éteints, chaises repoussées. Un mug *World's Okayest Tester* encore sur le plan de travail.
 
 En avril, c'était le tour de Fatima, la rédactrice technique. Son poste avait été "réorganisé" — le mot que les RH utilisaient pour ne pas dire "supprimé". La documentation serait désormais générée automatiquement.
 
@@ -175,10 +175,10 @@ La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
 
 ---
 
-* **Refacto** *(refactoring)* : réécriture d'un morceau de code pour l'améliorer sans changer ce qu'il fait.
-* **Sprint** : période de travail fixe (généralement deux semaines) dans les méthodes de gestion de projet agiles.
-* **Revue** *(de code)* : relecture du code par un pair avant de l'intégrer au logiciel.
-* **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
-* **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
-* **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
-* **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
+[^refacto]: **Refacto** *(refactoring)* : réécriture d'un morceau de code pour l'améliorer sans changer ce qu'il fait.
+[^sprint]: **Sprint** : période de travail fixe (généralement deux semaines) dans les méthodes de gestion de projet agiles.
+[^revue]: **Revue** *(de code)* : relecture du code par un pair avant de l'intégrer au logiciel.
+[^daily-standup]: **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
+[^back-end]: **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
+[^qa]: **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
+[^prod]: **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
