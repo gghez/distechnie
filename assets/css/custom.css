@@ -1,0 +1,41 @@
+/* Distechnie - Custom styles */
+
+/* EPUB download link */
+.epub-download {
+  margin: 1rem 0;
+}
+
+.epub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--color-link);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.epub-link:hover {
+  background-color: var(--color-link);
+  color: white;
+}
+
+/* Story table of contents */
+.story-toc ol {
+  padding-left: 1.5rem;
+}
+
+.story-toc li {
+  margin-bottom: 0.3rem;
+}
+
+/* Better reading experience */
+.book-page {
+  max-width: 48rem;
+}
+
+.markdown {
+  line-height: 1.8;
+}

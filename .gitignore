@@ -1,0 +1,23 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Hugo module cache (if Go is used later)
+_vendor/
+
+# Generated EPUBs (built by CI)
+static/epub/
+
+# Temporary files
+/tmp/

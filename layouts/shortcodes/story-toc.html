@@ -1,0 +1,12 @@
+{{ $currentPage := .Page }}
+{{ $pages := $currentPage.Pages.ByWeight }}
+{{ if $pages }}
+<div class="story-toc">
+  <h3>Chapitres</h3>
+  <ol>
+    {{ range $pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ol>
+</div>
+{{ end }}
