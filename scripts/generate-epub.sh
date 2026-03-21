@@ -44,6 +44,7 @@ for story_dir in "$SRC_DIR"/*/; do
 
   pandoc \
     --metadata "title=$title" \
+    --metadata "author=G. Ghez" \
     --metadata "lang=fr" \
     --toc \
     --toc-depth=2 \
