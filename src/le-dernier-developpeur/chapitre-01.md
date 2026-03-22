@@ -63,7 +63,7 @@ Simon avait raccroché avec ce mélange familier d'affection et d'exaspération.
 
 Ce soir-là, Simon ne dormit pas.
 
-Ce n'était pas l'insomnie habituelle — le loyer, les mails, une ex. C'était une insomnie existentielle. Son cerveau tournait comme un moteur emballé, incapable de caler.
+Ce n'était pas l'insomnie habituelle — le loyer, les mails, un deadline. C'était une insomnie existentielle. Son cerveau tournait comme un moteur emballé, incapable de caler.
 
 Il reprit le carnet. La tasse de thé sur la table basse avait refroidi depuis longtemps. Quatorze. Le plancher. Mais le plancher supposait que chaque service avait besoin d'humains pour fonctionner.
 
