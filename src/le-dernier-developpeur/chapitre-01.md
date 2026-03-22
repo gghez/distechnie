@@ -43,7 +43,7 @@ Romain avait ri. Le rire poli de celui qui ne veut pas entendre.
 
 Simon rentrait le soir dans son deux-pièces du côté de Montreuil, et il comptait. C'était devenu un tic. Il comptait les postes, les tâches, les heures. Il faisait des estimations sur un carnet, à l'ancienne, comme si le papier rendait les chiffres moins effrayants.
 
-Il commença par le minimum vital. En informatique, on appelait ça le *bus factor*[^bus-factor] : combien de personnes doivent se faire renverser par un bus pour qu'un service s'arrête. Si la réponse est un, c'est un problème — une maladie, des vacances, une démission, et plus personne ne sait faire tourner le truc. Deux, c'est le seuil. Le minimum pour que ça tienne.
+Il commença par le minimum vital. Combien de personnes doivent tomber pour qu'un service s'arrête ? Si la réponse est un, c'est un problème — une maladie, des vacances, une démission, et plus personne ne sait faire tourner le truc. Deux, c'est le seuil. Le minimum pour que ça tienne.
 
 Simon lista les services de Nério. Le front. Le back. L'infra. La data. Le mobile. Les intégrations. La sécu. Sept services, fois deux. Quatorze développeurs. Sur trente-deux.
 
@@ -199,5 +199,4 @@ La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
 [^daily-standup]: **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
 [^back-end]: **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
 [^qa]: **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
-[^bus-factor]: **Bus factor** : nombre minimum de personnes dont le départ soudain suffirait à paralyser un service. Un bus factor de un signifie qu'une seule absence met tout à l'arrêt.
 [^prod]: **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
