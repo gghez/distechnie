@@ -43,7 +43,7 @@ Romain avait ri. Le rire poli de celui qui ne veut pas entendre.
 
 Simon rentrait le soir dans son deux-pièces du côté de Montreuil, et il comptait. C'était devenu un tic. Il comptait les postes, les tâches, les heures. Il faisait des estimations sur un carnet, à l'ancienne, comme si le papier rendait les chiffres moins effrayants.
 
-Il commença par le minimum vital. Le *bus factor* : combien de personnes doivent tomber pour qu'un service s'arrête. Si la réponse est un, c'est un problème — une maladie, des vacances, une démission, et plus personne ne sait faire tourner le truc. Deux, c'est le seuil. Le minimum pour que ça tienne.
+Il commença par le minimum vital. Le *bus factor* : combien de personnes doivent tomber pour qu'un service s'arrête. Si la réponse est un, c'est un problème — une maladie, des vacances, une démission, un bus, et plus personne ne sait faire tourner le truc. Deux, c'est le seuil. Le minimum pour que ça tienne.
 
 Simon lista les services de Nério. Le front. Le back. L'infra. La data. Le mobile. Les intégrations. La sécu. Sept services, fois deux. Quatorze développeurs. Sur trente-deux.
 
