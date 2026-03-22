@@ -39,7 +39,7 @@ Rémy ne répondit pas tout de suite. Il regardait son écran, où un agent éta
 
 À l'extérieur de Nério, le monde commençait à tanguer.
 
-Sur YouTube, les prophètes de malheur flairèrent le sang les premiers — les cyniques à micro-cravate et néons RGB, ceux qui avaient déjà prédit l'effondrement du dollar et l'apocalypse quantique. Sauf que cette fois, ils avaient raison. *"Votre job n'existera plus dans 18 mois"*, *"L'IA vous a déjà remplacé, vous ne le savez pas encore"*. Simon en regardait quelques-unes le soir, avec un mélange de dégoût et de reconnaissance. Ils disaient ce que personne n'osait dire au bureau. Mal — mais ils le disaient.
+Sur YouTube, les prophètes de malheur flairèrent le sang les premiers — les cyniques à micro-cravate et néons RGB, ceux qui avaient déjà prédit l'effondrement du dollar et l'apocalypse quantique. Sauf que cette fois, ils avaient raison. *"Votre job n'existera plus dans 18 mois"*, *"Le jour où l'IA a pris votre poste, vous étiez en réunion"*. Simon en regardait quelques-unes le soir, avec un mélange de dégoût et de reconnaissance. Ils disaient ce que personne n'osait dire au bureau. Mal — mais ils le disaient.
 
 Puis les chiffres officiels du chômage tombèrent en septembre, et les chaînes sérieuses n'eurent plus le choix. Les postes dans le tertiaire fondaient partout en même temps, comme une marée qui se retire. Les mêmes YouTubers que tout le monde moquait deux mois plus tôt se retrouvèrent sur les plateaux. Ils avaient troqué les néons RGB pour des blazers, mais le sourire était le même.
 
@@ -59,7 +59,7 @@ Joachim était radieux. Il venait de publier un article dans *Nature* sur un mé
 
 Joachim les regardait avec l'air perplexe de quelqu'un qui observe une espèce inconnue.
 
-Simon sentait la mâchoire se serrer.
+Simon ne disait rien. Il tournait sa bière entre ses doigts.
 
 Puis Joachim posa ses baguettes.
 
@@ -74,8 +74,6 @@ Emeric et Simon échangèrent un regard. C'était la première fois que Joachim 
 Le silence dura quelques secondes. Puis Emeric leva sa bière.
 
 — Bienvenue dans notre monde, Jojo.
-
-Personne ne rit.
 
 Simon commanda un deuxième pad thaï. En rentrant à Montreuil, il ouvrit son ordinateur par réflexe. Trois notifications. Un agent avait résolu les deux tickets qu'il s'était attribués pour le lendemain. Son mercredi venait de se vider.
 

@@ -1,6 +1,6 @@
 ---
 name: story
-description: "Load a story's creative context for a writing session. Use when the user says /story <slug>, or asks to work on a story, write a chapter, edit/correct a chapter, or start a writing session (e.g., 'on bosse sur le dernier développeur', 'écris le chapitre 10', 'je veux avancer sur la nouvelle', 'corrige le chapitre 3', 'retravaille le chapitre 5', 'fix le chapitre 2 du dernier développeur')."
+description: "Load a story's creative context for a writing session. MUST be invoked BEFORE any story-related work — never read story files manually without going through this skill first. Trigger when: the user says /story <slug>, OR expresses any intent to work on story content (writing, editing, correcting, reviewing, brainstorming a chapter or story). Examples: 'on va travailler sur le chapitre 1', 'on bosse sur le dernier développeur', 'écris le chapitre 10', 'je veux avancer sur la nouvelle', 'corrige le chapitre 3', 'retravaille le chapitre 5', 'fix le chapitre 2 du dernier développeur'."
 argument-hint: "[story-slug] [chapitre-NN]"
 allowed-tools: Bash(ls *), Bash(wc *), Bash(head *), Read, Glob, Grep
 ---
