@@ -15,7 +15,7 @@ En février, Granet envoya un second mail. Celui-ci n'avait pas le vernis glacé
 
 *« Suite aux évolutions de notre organisation, nous mettons en place un nouveau cadre de collaboration homme-IA. Chaque développeur devient référent de validation sur son périmètre. L'agent propose, l'humain valide. C'est notre engagement qualité. »*
 
-*Human-in-the-loop*. Simon connaissait le concept. C'était la bouée de sauvetage rhétorique de toute l'industrie : l'humain reste dans la boucle, l'humain garde le contrôle, l'humain a le dernier mot.
+*Human-in-the-loop*[^human-in-the-loop]. Simon connaissait le concept. C'était la bouée de sauvetage rhétorique de toute l'industrie : l'humain reste dans la boucle, l'humain garde le contrôle, l'humain a le dernier mot.
 
 Les titres changèrent du jour au lendemain. Rémy n'était plus "développeur back-end" — il était "référent validation back-end". Nathalie n'était plus "cheffe de projet" — elle était "coordinatrice de supervision IA". Les fiches de poste furent réécrites. Les organigrammes redessinés. L'architecture humaine de Nério se reconfigura autour d'un principe simple : les agents produisent, les humains vérifient.
 
@@ -95,9 +95,9 @@ Simon ne dit rien.
 
 — Le truc, reprit Emeric, c'est que la boucle, c'est du théâtre. Tout le monde le sait. Mais si tu enlèves le théâtre, il reste quoi ? Des agents qui tournent tout seuls et des gens qui regardent. Et ça, personne n'est prêt à l'admettre.
 
-Simon raccrocha et resta assis dans le noir.
+Simon raccrocha. Sur l'écran de veille de son laptop, une notification pulsait en silence : quatre pull requests en attente de validation.
 
-Il pensa à Rémy qui détournait les yeux. Il pensa au bouton vert. Il pensa à toutes les lignes de code qui défilaient, jour après jour, que personne ne lisait, dans des systèmes que personne ne comprenait plus vraiment.
+Il pensa à Rémy qui détournait les yeux. Au bouton vert. À toutes les lignes de code qui défilaient, jour après jour, que personne ne lisait, dans des systèmes que personne ne comprenait plus vraiment.
 
 Le masque n'était pas que tout allait bien.
 
@@ -112,4 +112,5 @@ Le masque, c'était que quelqu'un vérifiait encore.
 [^tests-unitaires-3]: **Tests unitaires** : petits programmes automatisés qui vérifient qu'un morceau de code fonctionne correctement.
 [^lgtm-3]: **LGTM** : *Looks Good To Me* — formule d'approbation rapide dans les *code reviews*, devenue un réflexe plus qu'un jugement.
 [^pipeline-3]: **Pipeline** : chaîne automatisée de vérifications (tests, analyse de code, déploiement) déclenchée à chaque modification.
+[^human-in-the-loop]: **Human-in-the-loop** : principe selon lequel un humain reste dans la chaîne de décision pour valider les actions d'une IA.
 [^post-mortem-3]: **Post-mortem** : réunion d'analyse après un incident, censée identifier les causes et éviter la récidive.

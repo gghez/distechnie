@@ -67,7 +67,7 @@ Le marché de Belleville était devenu autre chose qu'un marché. C'était un n�
 
 C'était foutraque, improvisé, parfois absurde. Ce n'était pas un système. C'était un début.
 
-Un samedi, Simon tomba sur Joachim au milieu de la foule. Joachim, son ami de prépa, le scientifique détaché, celui qui ne voyait pas le mur. Joachim portait un cageot de tomates et avait de la terre sur les mains.
+Un samedi, Simon tomba sur Joachim au milieu de la foule. Joachim portait un cageot de tomates et avait de la terre sur les mains.
 
 — Jojo ?
 

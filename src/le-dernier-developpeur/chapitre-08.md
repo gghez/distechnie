@@ -51,17 +51,13 @@ Mais il n'y avait personne.
 
 ---
 
-La troisième année fut celle du rationnement.
+La quatrième année fut celle du rationnement.
 
-Le mot fit son apparition au printemps, d'abord dans la presse, puis dans les discours officiels, puis dans la vie quotidienne. Les caisses de l'État, gorgées pendant des décennies par les cotisations des salariés, se vidaient à une vitesse que personne n'avait anticipée. Moins de salariés, moins de cotisations. Moins de consommation, moins de TVA. Moins de TVA, moins de budget.
+Les caisses de l'État se vidaient — moins de salariés, moins de cotisations ; moins de consommation, moins de TVA. Le gouvernement introduisit des "tickets de transition" : une carte rechargeable chaque mois, de quoi couvrir l'alimentation et les charges essentielles. Pas de quoi vivre. De quoi survivre.
 
-L'équation, encore une fois, était d'une simplicité brutale.
+Simon reçut la sienne un matin de juin, dans une enveloppe grise frappée du logo de la République. Il la retourna entre ses doigts. Lui, développeur senior, diplômé d'école d'ingénieurs, en était réduit à un système de tickets. Comme à la guerre.
 
-Le gouvernement introduisit d'abord des "tickets de transition" — une carte rechargeable chaque mois, créditée d'un montant qui permettait de couvrir l'alimentation et les charges essentielles. Pas de quoi vivre. De quoi survivre.
-
-Simon reçut la sienne un matin de juin, dans une enveloppe grise frappée du logo de la République. Il la retourna entre ses doigts, incrédule. Lui, développeur senior, diplômé d'école d'ingénieurs, en était réduit à un système de tickets. Comme à la guerre.
-
-C'était d'ailleurs le parallèle que tout le monde faisait. Les journaux parlaient d'"économie de guerre". Les vieux, ceux qui avaient connu les récits de leurs parents sur l'Occupation, hochaient la tête avec un air entendu. *On vous avait prévenus*, semblaient-ils dire, sans préciser de quoi.
+Les journaux parlaient d'"économie de guerre". Les vieux hochaient la tête avec un air entendu. *On vous avait prévenus*, semblaient-ils dire, sans préciser de quoi.
 
 Joachim, lui, continuait ses recherches. Son labo fonctionnait encore — la recherche fondamentale, financée par des fonds européens, était l'un des derniers secteurs épargnés. Il avait proposé à Simon de venir dîner chez lui, dans son petit appartement du cinquième arrondissement, encombré de livres et de revues scientifiques.
 

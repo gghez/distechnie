@@ -77,7 +77,7 @@ Le silence dura quelques secondes. Puis Emeric leva sa bière.
 
 Simon commanda un deuxième pad thaï. En rentrant à Montreuil, il ouvrit son ordinateur par réflexe. Trois notifications. Un agent avait résolu les deux tickets qu'il s'était attribués pour le lendemain. Son mercredi venait de se vider.
 
-Il referma l'écran et resta dans le noir.
+Il referma l'écran. Sur la table, le carnet de calculs était toujours ouvert. Les chiffres n'avaient pas changé. Ils n'avaient jamais eu besoin de changer.
 
 ---
 

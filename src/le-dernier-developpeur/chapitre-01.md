@@ -67,7 +67,7 @@ Ce n'était pas l'insomnie habituelle — le loyer, les mails, une deadline. C'�
 
 Il reprit le carnet. La tasse de thé sur la table basse avait refroidi depuis longtemps. Quatorze. Le plancher. Mais le plancher supposait que chaque service avait besoin d'humains pour fonctionner.
 
-Il repensa aux tests. Aujourd'hui, c'était les QA qui vérifiaient que tout marchait. Demain — et demain, c'était dans six mois — un chef de projet lancerait un agent et lirait le rapport lui-même. Plus besoin de testeurs. La même logique valait pour la documentation, le monitoring, le support technique. Service par service, le commanditaire pouvait court-circuiter l'équipe et poser la question directement à la machine.
+Il repensa aux tests. Aujourd'hui, c'était les QA qui vérifiaient que tout marchait. Demain — et demain, c'était dans six mois — un chef de projet lancerait un agent et lirait le rapport lui-même. Plus besoin de testeurs. La même logique valait pour la documentation, le *monitoring*[^monitoring], le support technique. Service par service, le commanditaire pouvait court-circuiter l'équipe et poser la question directement à la machine.
 
 Quatorze devenait dix. Dix devenait six. Six devenait : pourquoi encore payer des gens ?
 
@@ -199,4 +199,5 @@ La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
 [^daily-standup]: **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
 [^back-end]: **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
 [^qa]: **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
+[^monitoring]: **Monitoring** : surveillance automatisée du bon fonctionnement d'un système informatique en temps réel.
 [^prod]: **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.

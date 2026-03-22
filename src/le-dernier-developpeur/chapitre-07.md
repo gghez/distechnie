@@ -11,9 +11,7 @@ Simon suivait l'actualité internationale avec l'obsession morbide d'un homme qu
 
 Au Brésil, un data center de São Paulo avait été incendié par une foule en colère. Les images montraient des flammes immenses léchant une structure de béton et d'acier, des silhouettes noires découpées contre le brasier, des fumées toxiques qui avaient nécessité l'évacuation de trois quartiers. Le data center appartenait à un consortium américano-chinois. Personne ne le reconstruirait.
 
-En Inde, des émeutes avaient éclaté à Bangalore, Hyderabad, Pune — les villes qui avaient prospéré grâce à l'externalisation informatique et qui se retrouvaient vidées de leur raison d'être. Des centaines de milliers d'ingénieurs, de développeurs, de techniciens, jetés à la rue en quelques mois. La colère était à la mesure de la chute — vertigineuse.
-
-En Indonésie, aux Philippines, au Kenya — partout où l'économie avait reposé sur les services numériques, le même scénario se répétait avec des variantes locales. Les data centers étaient des cibles faciles, des symboles concrets d'un ennemi abstrait. On ne pouvait pas brûler un algorithme, mais on pouvait brûler le bâtiment qui l'hébergeait.
+En Inde, des émeutes avaient éclaté à Bangalore, Hyderabad, Pune — les anciennes capitales de l'externalisation informatique, vidées de leur raison d'être en quelques mois. Le même scénario se répétait aux Philippines, au Kenya, en Indonésie. Partout, les data centers étaient des cibles — des symboles concrets d'un ennemi abstrait. On ne pouvait pas brûler un algorithme, mais on pouvait brûler le bâtiment qui l'hébergeait.
 
 Et puis il y avait les ingénieurs.
 
@@ -60,3 +58,11 @@ Un silence.
 Simon ne répondit pas. Emeric avait raison, rationnellement. Mais la rationalité ne pesait pas lourd contre la honte.
 
 Il ne parlait plus de son passé. À personne.
+
+---
+
+Le lendemain, Joachim lui envoya un message inhabituel. Pas un lien vers un article scientifique, pas une photo de chromatographie. Juste une phrase :
+
+*« Mon post-doc a été refusé. Reviewers IA. Ils disent que ma méthodologie est "non optimale". »*
+
+Simon fixa le message. Joachim avait toujours vécu à l'abri, derrière ses microscopes et ses fonds européens. Pour la première fois, le mur était apparu dans son champ de vision.

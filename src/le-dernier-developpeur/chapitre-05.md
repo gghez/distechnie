@@ -41,7 +41,7 @@ Monsieur Brie commença à voir des tricheurs partout. Ce directeur artistique q
 
 La paranoïa s'installa comme une fièvre lente.
 
-Monsieur Brie prit l'habitude de vérifier. Il comparait les outputs des agents avec le travail rendu par ses employés. Il chronométrait. Il analysait les logs. Il installa un logiciel de monitoring sur les postes de travail — officiellement pour "optimiser les process", en réalité pour surveiller.
+Monsieur Brie prit l'habitude de vérifier. Il comparait les outputs des agents avec le travail rendu par ses employés. Il chronométrait. Il analysait les *logs*[^logs]. Il installa un logiciel de monitoring sur les postes de travail — officiellement pour "optimiser les process", en réalité pour surveiller.
 
 Il découvrit ce qu'il cherchait, évidemment. Quand on cherche des preuves de tricherie, on en trouve toujours.
 
@@ -72,3 +72,5 @@ Il se sentait tout-puissant, assis seul dans son bureau immense, entouré d'écr
 C'est du moins ce qu'il croyait.
 
 ---
+
+[^logs]: **Logs** : journaux d'activité d'un système informatique, enregistrant chaque action, connexion ou erreur.

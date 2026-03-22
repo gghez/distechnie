@@ -17,7 +17,7 @@ Le cercle vicieux que Simon avait prédit depuis le début.
 
 Les entreprises automatisaient pour réduire les coûts. Les gens perdaient leur emploi. Les gens sans emploi ne consommaient plus. Les entreprises perdaient leurs clients. Les entreprises faisaient faillite.
 
-C'était d'une simplicité terrifiante. Un raisonnement qu'un élève de terminale aurait pu faire. Et pourtant, personne n'avait voulu l'entendre.
+Et personne n'avait voulu l'entendre.
 
 ---
 
@@ -43,9 +43,7 @@ Emeric. Toujours debout, même quand le sol se dérobe.
 
 Les mois passèrent, et les mesures s'empilèrent comme des sacs de sable contre une inondation.
 
-Le gouvernement vota une loi sur les loyers en mars. Les locataires touchés par la "transition numérique" — le terme officiel — pouvaient rester dans leur logement à un loyer plafonné, la différence étant théoriquement compensée par l'État. En pratique, la compensation arrivait en retard, quand elle arrivait. Les propriétaires, surtout les petits, serraient les dents. Certains faisaient eux-mêmes faillite, incapables de rembourser leurs emprunts avec des loyers divisés par trois.
-
-Le marché immobilier se figea. Plus personne n'achetait. Plus personne ne vendait. Les agences immobilières fermaient — elles aussi remplacées, d'ailleurs, par des plateformes automatisées qui géraient les baux et les états des lieux sans intervention humaine.
+En mars, le gouvernement vota une loi sur les loyers : les locataires touchés par la "transition numérique" pouvaient rester chez eux à loyer plafonné, l'État compensant la différence — en théorie. En pratique, les propriétaires serraient les dents. Le marché immobilier se figea.
 
 Simon gardait son appartement de Montreuil grâce à la loi. Son propriétaire, un retraité qui avait investi ses économies dans ce deux-pièces, l'appela un jour.
 
