@@ -43,9 +43,11 @@ Romain avait ri. Le rire poli de celui qui ne veut pas entendre.
 
 Simon rentrait le soir dans son deux-pièces du côté de Montreuil, et il comptait. C'était devenu un tic. Il comptait les postes, les tâches, les heures. Il faisait des estimations sur un carnet, à l'ancienne, comme si le papier rendait les chiffres moins effrayants.
 
-Un agent de niveau 4 remplaçait un développeur junior en huit semaines. Un agent de niveau 5 en rattrapait deux seniors sur les tâches de routine. Les agents de niveau 6 commençaient à gérer la conception, l'architecture, les choix techniques. Pas aussi bien qu'un humain. Pas encore. Mais à une fraction du coût, et sans jamais demander de RTT.
+Il commença par le minimum vital. En informatique, on appelait ça le *bus factor*[^bus-factor] : combien de personnes doivent se faire renverser par un bus pour qu'un service s'arrête. Si la réponse est un, c'est un problème — une maladie, des vacances, une démission, et plus personne ne sait faire tourner le truc. Deux, c'est le seuil. Le minimum pour que ça tienne.
 
-La courbe était exponentielle. Simon la connaissait par cœur — c'était son métier, après tout, de voir où mène une logique qu'on pousse au bout.
+Simon lista les services de Nério. Le front. Le back. L'infra. La data. Le mobile. Les intégrations. La sécu. Sept services, fois deux. Quatorze développeurs. Sur trente-deux.
+
+Quatorze, c'était le plancher. Le minimum en dessous duquel on ne descend pas sans risquer la panne. Les dix-huit autres, c'était du confort. De la vélocité. La capacité à livrer vite et à mener plusieurs chantiers de front. Et c'était exactement ce que les agents remplaçaient déjà.
 
 Il en avait parlé à Joachim un soir, au téléphone. Joachim, son ami de prépa, devenu chercheur en biophysique, l'esprit toujours ailleurs, perdu entre ses protéines et ses publications.
 
@@ -63,7 +65,11 @@ Ce soir-là, Simon ne dormit pas.
 
 Ce n'était pas l'insomnie habituelle — le loyer, les mails, une ex. C'était une insomnie existentielle. Son cerveau tournait comme un moteur emballé, incapable de caler.
 
-Il reprit le carnet. La tasse de thé sur la table basse avait refroidi depuis longtemps. Nério employait trente-deux développeurs. Les chiffres tombaient comme un compte à rebours. Trente-deux deviendrait vingt. Vingt deviendrait douze. Douze deviendrait cinq. Et cinq deviendrait : pourquoi encore payer des gens ?
+Il reprit le carnet. La tasse de thé sur la table basse avait refroidi depuis longtemps. Quatorze. Le plancher. Mais le plancher supposait que chaque service avait besoin d'humains pour fonctionner.
+
+Il repensa aux tests. Aujourd'hui, c'était les QA qui vérifiaient que tout marchait. Demain — et demain, c'était dans six mois — un chef de projet lancerait un agent et lirait le rapport lui-même. Plus besoin de testeurs. La même logique valait pour la documentation, le monitoring, le support technique. Service par service, le commanditaire pouvait court-circuiter l'équipe et poser la question directement à la machine.
+
+Quatorze devenait dix. Dix devenait six. Six devenait : pourquoi encore payer des gens ?
 
 Il ferma le carnet. Le rouvrit. Recalcula. Ça ne changeait pas.
 
@@ -193,4 +199,5 @@ La réponse, il le savait, était : moins longtemps qu'il ne le croyait.
 [^daily-standup]: **Daily standup** : réunion quotidienne de quelques minutes où chaque membre de l'équipe résume son avancement.
 [^back-end]: **Back-end** : partie invisible d'un logiciel, celle qui gère les données et la logique côté serveur.
 [^qa]: **QA** *(Quality Assurance)* : tests destinés à vérifier que le logiciel fonctionne correctement avant sa mise en ligne.
+[^bus-factor]: **Bus factor** : nombre minimum de personnes dont le départ soudain suffirait à paralyser un service. Un bus factor de un signifie qu'une seule absence met tout à l'arrêt.
 [^prod]: **En prod** *(en production)* : dans l'environnement réel, utilisé par les vrais clients.
